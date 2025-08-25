@@ -1,0 +1,28 @@
+{
+  "database": {
+    "dsn": "SYSMAC",
+    "username": "DBA",
+    "password": "(*$^)"
+  },
+  "api": {
+    "base_url": "http://127.0.0.1:8000",
+    "endpoint": "/api/acc_users/",
+    "timeout": 30,
+    "items_endpoint": "/api/items/"
+  },
+  "sync": {
+    "table_name": "acc_users",
+    "fields": ["id", "pass"],
+    "batch_size": 100,
+    "log_level": "INFO"
+  },
+  "items_sync": {
+    "table_name": "tb_item_master",
+    "fields": [
+      "item_code", "item_name", "rate", "rate1", "rate2",
+      "rate3", "rate4", "rate5", "rate6", "rate7",
+      "kitchen", "category"
+    ],
+    "batch_size": 100
+  }
+}
