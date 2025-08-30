@@ -7,6 +7,7 @@ import sys
 import os
 from datetime import datetime
 from decimal import Decimal
+import time
 
 # ---------- HELPERS ----------
 def decimal_to_float(obj):
@@ -63,15 +64,19 @@ class BaseSync:
             return None
 
     # ---------- API ----------
-    def api_post(self, endpoint, data):
+    def api_post(self, endpoint, data, timeout=None):
         url = f"{self.config['api']['base_url']}{endpoint}"
         headers = {'Content-Type': 'application/json'}
+        
+        # Use custom timeout if provided, otherwise use config timeout
+        request_timeout = timeout or self.config['api']['timeout']
+        
         try:
             resp = requests.post(
                 url,
                 data=json.dumps(data, default=decimal_to_float),
                 headers=headers,
-                timeout=self.config['api']['timeout']
+                timeout=request_timeout
             )
             return resp.status_code == 200, resp.json() if resp.text else {}
         except requests.RequestException as e:
@@ -136,10 +141,36 @@ class ItemsSync(BaseSync):
             data = self.fetch(conn)
             if data is None:
                 return False
-            ok, _ = self.api_post(self.config['api']['items_endpoint'], data)
-            if ok:
-                self.logger.info("Items sync completed")
-            return ok
+            
+            # Process in batches with longer timeout to avoid timeout
+            batch_size = 1000
+            total_records = len(data)
+            
+            if total_records == 0:
+                self.logger.info("No items to sync")
+                return True
+            
+            self.logger.info(f"Processing {total_records} records in batches of {batch_size}")
+            
+            for i in range(0, total_records, batch_size):
+                batch = data[i:i + batch_size]
+                batch_num = (i // batch_size) + 1
+                total_batches = (total_records + batch_size - 1) // batch_size
+                
+                self.logger.info(f"Sending batch {batch_num}/{total_batches} ({len(batch)} records)")
+                
+                # Use longer timeout for items (2 minutes)
+                ok, response = self.api_post(self.config['api']['items_endpoint'], batch, timeout=120)
+                if not ok:
+                    self.logger.error(f"Batch {batch_num} failed. Response: {response}")
+                    return False
+                
+                # Add small delay between batches to prevent overwhelming the server
+                if batch_num < total_batches:
+                    time.sleep(0.5)
+                    
+            self.logger.info("Items sync completed")
+            return True
         finally:
             conn.close()
 
@@ -227,26 +258,211 @@ class BillsSync(BaseSync):
             conn.close()
 
 
+# ---------- KOT SALES DETAIL ----------
+class KotSalesSync(BaseSync):
+    def __init__(self):
+        super().__init__('kot_sales_sync')
+
+    def fetch(self, conn):
+        fields = self.config['kot_sales_sync']['fields']
+        # Quote field names to handle any reserved keywords
+        quoted_fields = [f'"{field}"' for field in fields]
+        
+        # SQL query to get ALL data (no date filter)
+        sql = f"""SELECT {', '.join(quoted_fields)} 
+                  FROM dine_kot_sales_detail
+                  ORDER BY "slno" DESC"""
+        
+        cursor = conn.cursor()
+        cursor.execute(sql)
+        
+        rows = []
+        for row in cursor:
+            try:
+                row_dict = dict(zip(fields, row))
+                
+                # Convert slno to string for JSON serialization
+                if row_dict.get('slno') is not None:
+                    row_dict['slno'] = str(int(float(row_dict['slno'])))
+                
+                # Convert billno to string for JSON serialization
+                if row_dict.get('billno') is not None:
+                    row_dict['billno'] = str(int(float(row_dict['billno'])))
+                
+                # Handle item field - strip whitespace if it exists
+                if row_dict.get('item'):
+                    row_dict['item'] = str(row_dict['item']).strip()
+                
+                # Handle qty - ensure it's a proper decimal/float
+                if row_dict.get('qty') is not None:
+                    row_dict['qty'] = float(row_dict['qty'])
+                
+                # Handle rate - ensure it's a proper decimal/float
+                if row_dict.get('rate') is not None:
+                    row_dict['rate'] = float(row_dict['rate'])
+                
+                rows.append(row_dict)
+                
+            except Exception as e:
+                self.logger.error(f"Error processing KOT row {row}: {str(e)}")
+                continue
+        
+        cursor.close()
+        self.logger.info(f"Fetched {len(rows)} dine_kot_sales_detail records (ALL data)")
+        return rows
+
+    def run(self):
+        conn = self.connect_to_database()
+        if not conn:
+            return False
+        try:
+            data = self.fetch(conn)
+            if data is None:
+                return False
+            
+            total_records = len(data)
+            
+            if total_records == 0:
+                self.logger.info("No KOT sales detail records found")
+                return True
+            
+            # Process in batches to avoid timeout with large datasets
+            batch_size = 500  # Reduced batch size for very large datasets
+            self.logger.info(f"Processing {total_records} records in batches of {batch_size}")
+            
+            for i in range(0, total_records, batch_size):
+                batch = data[i:i + batch_size]
+                batch_num = (i // batch_size) + 1
+                total_batches = (total_records + batch_size - 1) // batch_size
+                
+                self.logger.info(f"Sending KOT batch {batch_num}/{total_batches} ({len(batch)} records)")
+                
+                # Use longer timeout for large datasets (5 minutes)
+                ok, response = self.api_post(self.config['api']['kot_sales_endpoint'], batch, timeout=300)
+                if not ok:
+                    self.logger.error(f"KOT batch {batch_num} failed. Response: {response}")
+                    return False
+                
+                # Add longer delay between batches for very large datasets
+                if batch_num < total_batches:
+                    time.sleep(1.0)  # Increased from 0.5 to 1.0 second
+            
+            self.logger.info("KOT Sales Detail sync completed")
+            return True
+        except Exception as e:
+            self.logger.error(f"KOT Sales Detail sync error: {str(e)}")
+            return False
+        finally:
+            conn.close()
+
+
+# ---------- CANCELLED BILLS ----------
+class CancelledBillsSync(BaseSync):
+    def __init__(self):
+        super().__init__('cancelled_bills_sync')
+
+    def fetch(self, conn):
+        fields = self.config['cancelled_bills_sync']['fields']
+        # Quote field names to handle reserved keywords like 'date'
+        quoted_fields = [f'"{field}"' for field in fields]
+        
+        # SQL query to get ALL records from dine_bill table where colnstatus = 'C'
+        # (no date filter - fetch all cancelled bills)
+        sql = f"""SELECT {', '.join(quoted_fields)} 
+                  FROM dine_bill 
+                  WHERE "colnstatus" = 'C'
+                  ORDER BY "billno" DESC"""
+        
+        cursor = conn.cursor()
+        cursor.execute(sql)
+        
+        rows = []
+        for row in cursor:
+            try:
+                row_dict = dict(zip(fields, row))
+                
+                # Convert billno to string for JSON serialization
+                if row_dict.get('billno') is not None:
+                    row_dict['billno'] = str(int(float(row_dict['billno'])))
+                
+                # Handle date conversion
+                if row_dict.get('date'):
+                    if hasattr(row_dict['date'], 'isoformat'):
+                        row_dict['date'] = row_dict['date'].isoformat()
+                    elif row_dict['date'] is not None:
+                        # Convert to string if it's not None and doesn't have isoformat
+                        row_dict['date'] = str(row_dict['date'])
+                
+                # Handle creditcard field - strip whitespace if it exists
+                if row_dict.get('creditcard'):
+                    row_dict['creditcard'] = str(row_dict['creditcard']).strip()
+                
+                # Handle colnstatus field - strip whitespace if it exists
+                if row_dict.get('colnstatus'):
+                    row_dict['colnstatus'] = str(row_dict['colnstatus']).strip()
+                
+                rows.append(row_dict)
+                
+            except Exception as e:
+                self.logger.error(f"Error processing cancelled bills row {row}: {str(e)}")
+                continue
+        
+        cursor.close()
+        self.logger.info(f"Fetched {len(rows)} cancelled_bills records (colnstatus='C', ALL data)")
+        return rows
+
+    def run(self):
+        conn = self.connect_to_database()
+        if not conn:
+            return False
+        try:
+            data = self.fetch(conn)
+            if data is None:
+                return False
+            
+            # Log sample data for debugging
+            if data:
+                self.logger.info(f"Sample cancelled bill record: {data[0]}")
+                self.logger.info(f"Date range: Last 7 days from today, colnstatus='C' only")
+            else:
+                self.logger.info("No cancelled bill records (colnstatus='C') found in the last 7 days")
+            
+            ok, response = self.api_post(self.config['api']['cancelled_bills_endpoint'], data)
+            if ok:
+                self.logger.info("Cancelled Bills sync completed")
+            else:
+                self.logger.error(f"Cancelled Bills sync failed. Response: {response}")
+            return ok
+        except Exception as e:
+            self.logger.error(f"Cancelled Bills sync error: {str(e)}")
+            return False
+        finally:
+            conn.close()
+
+
 # ---------- MAIN ----------
 def main():
     print("=== Starting Full Sync ===")
-    print("Syncing 3 tables: acc_users, tb_item_master, dine_bill")
+    print("Syncing 5 tables: acc_users, tb_item_master, dine_bill, dine_kot_sales_detail, cancelled_bills")
     print()
     
-    # Run all syncs
+    # Run all syncs automatically
     sync_results = []
     
-    print("1. Syncing acc_users...")
     ok1 = AccUsersSync().run()
     sync_results.append(("acc_users", ok1))
     
-    print("2. Syncing tb_item_master...")
     ok2 = ItemsSync().run()
     sync_results.append(("tb_item_master", ok2))
     
-    print("3. Syncing dine_bill...")
     ok3 = BillsSync().run()
     sync_results.append(("dine_bill", ok3))
+    
+    ok4 = KotSalesSync().run()
+    sync_results.append(("dine_kot_sales_detail", ok4))
+    
+    ok5 = CancelledBillsSync().run()
+    sync_results.append(("cancelled_bills", ok5))
 
     print("\n" + "=" * 60)
     print("SYNC RESULTS:")
@@ -255,7 +471,7 @@ def main():
     all_success = True
     for table_name, success in sync_results:
         status = "✓ SUCCESS" if success else "✗ FAILED"
-        print(f"{table_name:20} - {status}")
+        print(f"{table_name:25} - {status}")
         if not success:
             all_success = False
     

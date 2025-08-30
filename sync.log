@@ -446,3 +446,599 @@
 2025-08-28 10:08:09,799 - INFO - Fetched 0 dine_bill records from last 7 days
 2025-08-28 10:08:09,799 - INFO - No bill records found in the last 7 days
 2025-08-28 10:08:10,217 - INFO - Bills sync completed
+2025-08-30 16:30:56,935 - INFO - Connecting to DSN: DINE
+2025-08-30 16:30:56,962 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 16:30:56,975 - INFO - Connecting to DSN: DINE
+2025-08-30 16:30:56,984 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 16:30:56,998 - INFO - Connecting to DSN: DINE
+2025-08-30 16:30:57,002 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 16:30:57,011 - INFO - Connecting to DSN: DINE
+2025-08-30 16:30:57,021 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 16:32:38,507 - INFO - Connecting to DSN: DINE
+2025-08-30 16:32:38,512 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 16:32:38,515 - INFO - Connecting to DSN: DINE
+2025-08-30 16:32:38,518 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 16:32:38,522 - INFO - Connecting to DSN: DINE
+2025-08-30 16:32:38,524 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 16:32:38,534 - INFO - Connecting to DSN: DINE
+2025-08-30 16:32:38,538 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 16:33:01,178 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:33:03,450 - INFO - Database connection successful
+2025-08-30 16:33:03,527 - INFO - Fetched 3 acc_users records
+2025-08-30 16:33:04,893 - INFO - AccUsers sync completed
+2025-08-30 16:33:04,912 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:33:04,965 - INFO - Database connection successful
+2025-08-30 16:33:05,067 - INFO - Fetched 269 tb_item_master records
+2025-08-30 16:33:35,087 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:33:35,187 - INFO - Database connection successful
+2025-08-30 16:33:35,300 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 16:33:35,301 - INFO - No bill records found in the last 7 days
+2025-08-30 16:33:36,592 - INFO - Bills sync completed
+2025-08-30 16:33:36,600 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:33:36,733 - INFO - Database connection successful
+2025-08-30 16:33:36,795 - INFO - Fetched 0 dine_kot_sales_detail records from last 7 days
+2025-08-30 16:33:36,797 - INFO - No KOT sales detail records found in the last 7 days
+2025-08-30 16:33:37,620 - INFO - KOT Sales Detail sync completed
+2025-08-30 16:35:24,391 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:35:25,215 - INFO - Database connection successful
+2025-08-30 16:35:25,220 - INFO - Fetched 3 acc_users records
+2025-08-30 16:35:26,452 - INFO - AccUsers sync completed
+2025-08-30 16:35:26,458 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:35:26,570 - INFO - Database connection successful
+2025-08-30 16:35:26,661 - INFO - Fetched 269 tb_item_master records
+2025-08-30 16:35:56,702 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:35:56,765 - INFO - Database connection successful
+2025-08-30 16:35:56,799 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 16:35:56,800 - INFO - No bill records found in the last 7 days
+2025-08-30 16:35:57,676 - INFO - Bills sync completed
+2025-08-30 16:35:57,692 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:35:57,767 - INFO - Database connection successful
+2025-08-30 16:35:57,802 - INFO - Fetched 0 dine_kot_sales_detail records from last 7 days
+2025-08-30 16:35:57,805 - INFO - No KOT sales detail records found in the last 7 days
+2025-08-30 16:35:58,691 - INFO - KOT Sales Detail sync completed
+2025-08-30 16:39:26,315 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:39:26,587 - INFO - Database connection successful
+2025-08-30 16:39:26,591 - INFO - Fetched 3 acc_users records
+2025-08-30 16:39:27,763 - INFO - AccUsers sync completed
+2025-08-30 16:39:27,770 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:39:57,063 - INFO - Database connection successful
+2025-08-30 16:39:57,245 - INFO - Fetched 269 tb_item_master records
+2025-08-30 16:39:57,293 - INFO - Processing 269 records in batches of 100
+2025-08-30 16:39:57,353 - INFO - Sending batch 1/3 (100 records)
+2025-08-30 16:40:24,016 - INFO - Sending batch 2/3 (100 records)
+2025-08-30 16:40:52,332 - INFO - Sending batch 3/3 (69 records)
+2025-08-30 16:41:09,667 - INFO - Items sync completed
+2025-08-30 16:41:09,678 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:41:09,807 - INFO - Database connection successful
+2025-08-30 16:41:09,880 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 16:41:09,922 - INFO - No bill records found in the last 7 days
+2025-08-30 16:41:10,911 - INFO - Bills sync completed
+2025-08-30 16:41:10,917 - INFO - Connecting to DSN: dinedb
+2025-08-30 16:41:10,982 - INFO - Database connection successful
+2025-08-30 16:41:11,016 - INFO - Fetched 0 dine_kot_sales_detail records from last 7 days
+2025-08-30 16:41:11,016 - INFO - No KOT sales detail records found in the last 7 days
+2025-08-30 16:41:11,989 - INFO - KOT Sales Detail sync completed
+2025-08-30 17:06:19,724 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:06:20,908 - INFO - Database connection successful
+2025-08-30 17:06:20,913 - INFO - Fetched 3 acc_users records
+2025-08-30 17:06:23,638 - INFO - AccUsers sync completed
+2025-08-30 17:06:23,644 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:06:23,734 - INFO - Database connection successful
+2025-08-30 17:06:23,837 - INFO - Fetched 269 tb_item_master records
+2025-08-30 17:06:23,840 - INFO - Processing 269 records in batches of 100
+2025-08-30 17:06:23,841 - INFO - Sending batch 1/3 (100 records)
+2025-08-30 17:06:53,855 - ERROR - Batch 1 failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)
+2025-08-30 17:06:53,865 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:06:53,945 - INFO - Database connection successful
+2025-08-30 17:06:53,977 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 17:06:53,982 - INFO - No bill records found in the last 7 days
+2025-08-30 17:06:55,043 - INFO - Bills sync completed
+2025-08-30 17:06:55,049 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:06:55,233 - INFO - Database connection successful
+2025-08-30 17:06:55,295 - INFO - Fetched 0 dine_kot_sales_detail records from last 7 days
+2025-08-30 17:06:55,296 - INFO - No KOT sales detail records found in the last 7 days
+2025-08-30 17:06:56,836 - INFO - KOT Sales Detail sync completed
+2025-08-30 17:06:56,891 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:06:56,972 - INFO - Database connection successful
+2025-08-30 17:06:57,009 - INFO - Fetched 0 cancelled_bills records from last 7 days
+2025-08-30 17:06:57,010 - INFO - No cancelled bill records found in the last 7 days
+2025-08-30 17:06:59,515 - INFO - Cancelled Bills sync completed
+2025-08-30 17:12:59,001 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:12:59,172 - INFO - Database connection successful
+2025-08-30 17:12:59,174 - INFO - Fetched 3 acc_users records
+2025-08-30 17:13:00,232 - INFO - AccUsers sync completed
+2025-08-30 17:13:00,238 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:13:00,322 - INFO - Database connection successful
+2025-08-30 17:13:00,416 - INFO - Fetched 269 tb_item_master records
+2025-08-30 17:13:00,417 - INFO - Processing 269 records in batches of 20
+2025-08-30 17:13:00,418 - INFO - Sending batch 1/14 (20 records)
+2025-08-30 17:13:08,220 - INFO - Sending batch 2/14 (20 records)
+2025-08-30 17:13:14,722 - INFO - Sending batch 3/14 (20 records)
+2025-08-30 17:13:20,931 - INFO - Sending batch 4/14 (20 records)
+2025-08-30 17:13:27,540 - INFO - Sending batch 5/14 (20 records)
+2025-08-30 17:13:34,854 - INFO - Sending batch 6/14 (20 records)
+2025-08-30 17:13:43,954 - INFO - Sending batch 7/14 (20 records)
+2025-08-30 17:13:49,219 - INFO - Sending batch 8/14 (20 records)
+2025-08-30 17:13:54,875 - INFO - Sending batch 9/14 (20 records)
+2025-08-30 17:14:02,456 - INFO - Sending batch 10/14 (20 records)
+2025-08-30 17:14:08,199 - INFO - Sending batch 11/14 (20 records)
+2025-08-30 17:14:15,576 - INFO - Sending batch 12/14 (20 records)
+2025-08-30 17:14:29,950 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:14:30,361 - INFO - Database connection successful
+2025-08-30 17:14:30,363 - INFO - Fetched 3 acc_users records
+2025-08-30 17:14:32,018 - INFO - AccUsers sync completed
+2025-08-30 17:14:32,083 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:14:32,197 - INFO - Database connection successful
+2025-08-30 17:14:32,265 - INFO - Fetched 269 tb_item_master records
+2025-08-30 17:14:32,267 - INFO - Processing 269 records in batches of 20
+2025-08-30 17:14:32,268 - INFO - Sending batch 1/14 (20 records)
+2025-08-30 17:14:41,860 - INFO - Sending batch 2/14 (20 records)
+2025-08-30 17:14:52,232 - INFO - Sending batch 3/14 (20 records)
+2025-08-30 17:15:01,578 - INFO - Sending batch 4/14 (20 records)
+2025-08-30 17:15:12,174 - INFO - Sending batch 5/14 (20 records)
+2025-08-30 17:15:17,129 - INFO - Sending batch 6/14 (20 records)
+2025-08-30 17:15:25,138 - INFO - Sending batch 7/14 (20 records)
+2025-08-30 17:15:32,292 - INFO - Sending batch 8/14 (20 records)
+2025-08-30 17:15:39,258 - INFO - Sending batch 9/14 (20 records)
+2025-08-30 17:15:50,088 - INFO - Sending batch 10/14 (20 records)
+2025-08-30 17:15:57,575 - INFO - Sending batch 11/14 (20 records)
+2025-08-30 17:16:09,118 - INFO - Sending batch 12/14 (20 records)
+2025-08-30 17:16:20,431 - INFO - Sending batch 13/14 (20 records)
+2025-08-30 17:16:32,857 - INFO - Sending batch 14/14 (9 records)
+2025-08-30 17:16:36,992 - INFO - Items sync completed
+2025-08-30 17:16:36,996 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:16:37,066 - INFO - Database connection successful
+2025-08-30 17:16:37,099 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 17:16:37,100 - INFO - No bill records found in the last 7 days
+2025-08-30 17:16:37,918 - INFO - Bills sync completed
+2025-08-30 17:16:37,928 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:16:38,076 - INFO - Database connection successful
+2025-08-30 17:16:38,108 - INFO - Fetched 0 dine_kot_sales_detail records from last 7 days
+2025-08-30 17:16:38,109 - INFO - No KOT sales detail records found in the last 7 days
+2025-08-30 17:16:40,792 - INFO - KOT Sales Detail sync completed
+2025-08-30 17:16:40,885 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:16:40,993 - INFO - Database connection successful
+2025-08-30 17:16:41,018 - INFO - Fetched 0 cancelled_bills records from last 7 days
+2025-08-30 17:16:41,019 - INFO - No cancelled bill records found in the last 7 days
+2025-08-30 17:16:42,666 - INFO - Cancelled Bills sync completed
+2025-08-30 17:29:30,552 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:29:32,930 - INFO - Database connection successful
+2025-08-30 17:29:32,998 - INFO - Fetched 3 acc_users records
+2025-08-30 17:29:35,038 - INFO - AccUsers sync completed
+2025-08-30 17:29:35,138 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:29:35,257 - INFO - Database connection successful
+2025-08-30 17:29:35,305 - INFO - Fetched 269 tb_item_master records
+2025-08-30 17:29:35,313 - INFO - Processing 269 records in batches of 20
+2025-08-30 17:29:35,313 - INFO - Sending batch 1/14 (20 records)
+2025-08-30 17:29:44,140 - INFO - Sending batch 2/14 (20 records)
+2025-08-30 17:29:52,900 - INFO - Sending batch 3/14 (20 records)
+2025-08-30 17:30:01,536 - INFO - Sending batch 4/14 (20 records)
+2025-08-30 17:30:09,082 - INFO - Sending batch 5/14 (20 records)
+2025-08-30 17:30:17,059 - INFO - Sending batch 6/14 (20 records)
+2025-08-30 17:30:27,774 - INFO - Sending batch 7/14 (20 records)
+2025-08-30 17:30:35,175 - INFO - Sending batch 8/14 (20 records)
+2025-08-30 17:30:45,299 - INFO - Sending batch 9/14 (20 records)
+2025-08-30 17:30:56,058 - INFO - Sending batch 10/14 (20 records)
+2025-08-30 17:31:05,454 - INFO - Sending batch 11/14 (20 records)
+2025-08-30 17:31:16,056 - INFO - Sending batch 12/14 (20 records)
+2025-08-30 17:31:25,139 - INFO - Sending batch 13/14 (20 records)
+2025-08-30 17:31:35,072 - INFO - Sending batch 14/14 (9 records)
+2025-08-30 17:31:39,021 - INFO - Items sync completed
+2025-08-30 17:31:39,055 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:31:39,071 - INFO - Database connection successful
+2025-08-30 17:31:39,117 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 17:31:39,118 - INFO - No bill records found in the last 7 days
+2025-08-30 17:31:40,065 - INFO - Bills sync completed
+2025-08-30 17:31:40,079 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:31:40,213 - INFO - Database connection successful
+2025-08-30 17:31:40,270 - INFO - Fetched 0 dine_kot_sales_detail records from last 7 days
+2025-08-30 17:31:40,271 - INFO - No KOT sales detail records found in the last 7 days
+2025-08-30 17:31:41,094 - INFO - KOT Sales Detail sync completed
+2025-08-30 17:31:41,108 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:31:41,171 - INFO - Database connection successful
+2025-08-30 17:31:41,232 - INFO - Fetched 0 cancelled_bills records from last 7 days
+2025-08-30 17:31:41,234 - INFO - No cancelled bill records found in the last 7 days
+2025-08-30 17:31:42,400 - INFO - Cancelled Bills sync completed
+2025-08-30 17:39:37,721 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:39:38,816 - INFO - Database connection successful
+2025-08-30 17:39:38,818 - INFO - Fetched 3 acc_users records
+2025-08-30 17:39:40,637 - INFO - AccUsers sync completed
+2025-08-30 17:39:40,644 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:39:40,791 - INFO - Database connection successful
+2025-08-30 17:39:40,982 - INFO - Fetched 269 tb_item_master records
+2025-08-30 17:39:40,983 - INFO - Processing 269 records in batches of 20
+2025-08-30 17:39:40,984 - INFO - Sending batch 1/14 (20 records)
+2025-08-30 17:39:47,265 - INFO - Sending batch 2/14 (20 records)
+2025-08-30 17:39:53,751 - INFO - Sending batch 3/14 (20 records)
+2025-08-30 17:40:07,697 - INFO - Sending batch 4/14 (20 records)
+2025-08-30 17:41:06,481 - ERROR - Batch 4 failed. Response: {'status': 'error', 'message': 'consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.\nserver closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.'}
+2025-08-30 17:41:06,521 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:41:06,747 - INFO - Database connection successful
+2025-08-30 17:41:06,773 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 17:41:06,774 - INFO - No bill records found in the last 7 days
+2025-08-30 17:41:06,857 - ERROR - Bills sync failed. Response: {'error': 'connection failed: connection to server at "88.222.212.14", port 5432 failed: No route to host (0x00002751/10065)\n\tIs the server running on that host and accepting TCP/IP connections?'}
+2025-08-30 17:41:06,877 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:41:07,018 - INFO - Database connection successful
+2025-08-30 17:41:10,088 - INFO - Fetched 69010 dine_kot_sales_detail records (ALL data)
+2025-08-30 17:41:10,088 - INFO - Sample KOT record: {'slno': '69334', 'billno': '21289', 'item': '41', 'qty': 1.0, 'rate': 19.0}
+2025-08-30 17:41:10,089 - INFO - Data range: ALL records
+2025-08-30 17:41:10,455 - ERROR - KOT Sales Detail sync failed. Response: {'error': 'connection failed: connection to server at "88.222.212.14", port 5432 failed: No route to host (0x00002751/10065)\n\tIs the server running on that host and accepting TCP/IP connections?'}
+2025-08-30 17:41:10,495 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:41:10,645 - INFO - Database connection successful
+2025-08-30 17:41:10,652 - ERROR - Cancelled Bills sync error: ('42S02', "[42S02] [SAP][ODBC Driver][SQL Anywhere]Table 'cancelled_bills' not found (-141) (SQLExecDirectW)")
+2025-08-30 17:43:45,145 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:43:45,460 - INFO - Database connection successful
+2025-08-30 17:43:45,462 - INFO - Fetched 3 acc_users records
+2025-08-30 17:43:47,496 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:43:47,595 - INFO - Database connection successful
+2025-08-30 17:43:47,682 - INFO - Fetched 269 tb_item_master records
+2025-08-30 17:43:47,682 - INFO - Processing 269 records in batches of 20
+2025-08-30 17:43:47,683 - INFO - Sending batch 1/14 (20 records)
+2025-08-30 17:43:49,710 - ERROR - Batch 1 failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /api/items/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025C50536990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-30 17:43:49,713 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:43:49,829 - INFO - Database connection successful
+2025-08-30 17:43:49,861 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 17:43:49,861 - INFO - No bill records found in the last 7 days
+2025-08-30 17:43:53,846 - INFO - Bills sync completed
+2025-08-30 17:43:53,855 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:43:53,955 - INFO - Database connection successful
+2025-08-30 17:43:58,027 - INFO - Fetched 69010 dine_kot_sales_detail records (ALL data)
+2025-08-30 17:43:58,028 - INFO - Sample KOT record: {'slno': '69334', 'billno': '21289', 'item': '41', 'qty': 1.0, 'rate': 19.0}
+2025-08-30 17:43:58,028 - INFO - Data range: ALL records
+2025-08-30 17:44:28,257 - ERROR - KOT Sales Detail sync failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)
+2025-08-30 17:44:28,264 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:44:28,383 - INFO - Database connection successful
+2025-08-30 17:44:28,387 - ERROR - Cancelled Bills sync error: ('42S02', "[42S02] [SAP][ODBC Driver][SQL Anywhere]Table 'cancelled_bills' not found (-141) (SQLExecDirectW)")
+2025-08-30 17:46:14,314 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:46:14,814 - INFO - Database connection successful
+2025-08-30 17:46:14,816 - INFO - Fetched 3 acc_users records
+2025-08-30 17:46:16,941 - INFO - AccUsers sync completed
+2025-08-30 17:46:16,948 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:46:17,068 - INFO - Database connection successful
+2025-08-30 17:46:17,142 - INFO - Fetched 269 tb_item_master records
+2025-08-30 17:46:17,142 - INFO - Processing 269 records in batches of 20
+2025-08-30 17:46:17,146 - INFO - Sending batch 1/14 (20 records)
+2025-08-30 17:46:25,771 - INFO - Sending batch 2/14 (20 records)
+2025-08-30 17:46:35,390 - INFO - Sending batch 3/14 (20 records)
+2025-08-30 17:46:42,509 - INFO - Sending batch 4/14 (20 records)
+2025-08-30 17:46:49,761 - INFO - Sending batch 5/14 (20 records)
+2025-08-30 17:46:57,945 - INFO - Sending batch 6/14 (20 records)
+2025-08-30 17:47:04,989 - INFO - Sending batch 7/14 (20 records)
+2025-08-30 17:47:13,550 - INFO - Sending batch 8/14 (20 records)
+2025-08-30 17:47:22,591 - INFO - Sending batch 9/14 (20 records)
+2025-08-30 17:47:34,416 - INFO - Sending batch 10/14 (20 records)
+2025-08-30 17:47:42,946 - INFO - Sending batch 11/14 (20 records)
+2025-08-30 17:47:51,902 - INFO - Sending batch 12/14 (20 records)
+2025-08-30 17:47:58,922 - INFO - Sending batch 13/14 (20 records)
+2025-08-30 17:48:04,484 - INFO - Sending batch 14/14 (9 records)
+2025-08-30 17:48:07,433 - INFO - Items sync completed
+2025-08-30 17:48:07,441 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:48:07,577 - INFO - Database connection successful
+2025-08-30 17:48:07,741 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 17:48:07,742 - INFO - No bill records found in the last 7 days
+2025-08-30 17:48:09,791 - INFO - Bills sync completed
+2025-08-30 17:48:09,793 - INFO - Connecting to DSN: dinedb
+2025-08-30 17:48:09,957 - INFO - Database connection successful
+2025-08-30 17:48:13,493 - INFO - Fetched 69010 dine_kot_sales_detail records (ALL data)
+2025-08-30 17:48:13,493 - INFO - Processing 69010 records in batches of 50
+2025-08-30 17:48:13,494 - INFO - Sending KOT batch 1/1381 (50 records)
+2025-08-30 17:48:23,711 - INFO - Sending KOT batch 2/1381 (50 records)
+2025-08-30 17:48:39,073 - INFO - Sending KOT batch 3/1381 (50 records)
+2025-08-30 17:48:51,203 - INFO - Sending KOT batch 4/1381 (50 records)
+2025-08-30 17:49:07,067 - INFO - Sending KOT batch 5/1381 (50 records)
+2025-08-30 17:49:19,588 - INFO - Sending KOT batch 6/1381 (50 records)
+2025-08-30 17:49:31,552 - INFO - Sending KOT batch 7/1381 (50 records)
+2025-08-30 17:49:42,866 - INFO - Sending KOT batch 8/1381 (50 records)
+2025-08-30 17:49:54,186 - INFO - Sending KOT batch 9/1381 (50 records)
+2025-08-30 17:50:06,152 - INFO - Sending KOT batch 10/1381 (50 records)
+2025-08-30 17:50:17,710 - INFO - Sending KOT batch 11/1381 (50 records)
+2025-08-30 17:50:28,345 - INFO - Sending KOT batch 12/1381 (50 records)
+2025-08-30 17:50:40,168 - INFO - Sending KOT batch 13/1381 (50 records)
+2025-08-30 17:50:53,512 - INFO - Sending KOT batch 14/1381 (50 records)
+2025-08-30 17:51:08,125 - INFO - Sending KOT batch 15/1381 (50 records)
+2025-08-30 17:51:18,832 - INFO - Sending KOT batch 16/1381 (50 records)
+2025-08-30 17:51:30,630 - INFO - Sending KOT batch 17/1381 (50 records)
+2025-08-30 17:51:40,314 - INFO - Sending KOT batch 18/1381 (50 records)
+2025-08-30 17:51:52,914 - INFO - Sending KOT batch 19/1381 (50 records)
+2025-08-30 17:52:02,787 - INFO - Sending KOT batch 20/1381 (50 records)
+2025-08-30 17:52:13,304 - INFO - Sending KOT batch 21/1381 (50 records)
+2025-08-30 17:52:23,145 - INFO - Sending KOT batch 22/1381 (50 records)
+2025-08-30 17:52:32,905 - INFO - Sending KOT batch 23/1381 (50 records)
+2025-08-30 17:52:45,307 - INFO - Sending KOT batch 24/1381 (50 records)
+2025-08-30 17:52:56,200 - INFO - Sending KOT batch 25/1381 (50 records)
+2025-08-30 17:53:10,386 - INFO - Sending KOT batch 26/1381 (50 records)
+2025-08-30 17:53:22,905 - INFO - Sending KOT batch 27/1381 (50 records)
+2025-08-30 17:53:37,039 - INFO - Sending KOT batch 28/1381 (50 records)
+2025-08-30 17:53:51,227 - INFO - Sending KOT batch 29/1381 (50 records)
+2025-08-30 17:54:02,903 - INFO - Sending KOT batch 30/1381 (50 records)
+2025-08-30 17:54:16,031 - INFO - Sending KOT batch 31/1381 (50 records)
+2025-08-30 17:54:30,551 - INFO - Sending KOT batch 32/1381 (50 records)
+2025-08-30 17:54:44,032 - INFO - Sending KOT batch 33/1381 (50 records)
+2025-08-30 17:54:56,913 - INFO - Sending KOT batch 34/1381 (50 records)
+2025-08-30 17:55:11,470 - INFO - Sending KOT batch 35/1381 (50 records)
+2025-08-30 17:55:22,272 - INFO - Sending KOT batch 36/1381 (50 records)
+2025-08-30 17:55:35,545 - INFO - Sending KOT batch 37/1381 (50 records)
+2025-08-30 17:55:49,808 - INFO - Sending KOT batch 38/1381 (50 records)
+2025-08-30 17:56:01,908 - INFO - Sending KOT batch 39/1381 (50 records)
+2025-08-30 17:56:14,424 - INFO - Sending KOT batch 40/1381 (50 records)
+2025-08-30 17:56:25,419 - INFO - Sending KOT batch 41/1381 (50 records)
+2025-08-30 17:56:35,418 - INFO - Sending KOT batch 42/1381 (50 records)
+2025-08-30 17:56:45,293 - INFO - Sending KOT batch 43/1381 (50 records)
+2025-08-30 17:56:56,180 - INFO - Sending KOT batch 44/1381 (50 records)
+2025-08-30 17:57:06,347 - INFO - Sending KOT batch 45/1381 (50 records)
+2025-08-30 17:57:18,633 - INFO - Sending KOT batch 46/1381 (50 records)
+2025-08-30 17:57:29,739 - INFO - Sending KOT batch 47/1381 (50 records)
+2025-08-30 17:57:44,151 - INFO - Sending KOT batch 48/1381 (50 records)
+2025-08-30 17:57:55,938 - INFO - Sending KOT batch 49/1381 (50 records)
+2025-08-30 17:58:07,304 - INFO - Sending KOT batch 50/1381 (50 records)
+2025-08-30 17:58:19,865 - INFO - Sending KOT batch 51/1381 (50 records)
+2025-08-30 17:58:30,585 - INFO - Sending KOT batch 52/1381 (50 records)
+2025-08-30 17:58:42,424 - INFO - Sending KOT batch 53/1381 (50 records)
+2025-08-30 17:58:55,525 - INFO - Sending KOT batch 54/1381 (50 records)
+2025-08-30 17:59:08,970 - INFO - Sending KOT batch 55/1381 (50 records)
+2025-08-30 17:59:20,068 - INFO - Sending KOT batch 56/1381 (50 records)
+2025-08-30 17:59:36,179 - INFO - Sending KOT batch 57/1381 (50 records)
+2025-08-30 17:59:50,100 - INFO - Sending KOT batch 58/1381 (50 records)
+2025-08-30 18:00:02,234 - INFO - Sending KOT batch 59/1381 (50 records)
+2025-08-30 18:00:15,189 - INFO - Sending KOT batch 60/1381 (50 records)
+2025-08-30 18:00:29,361 - INFO - Sending KOT batch 61/1381 (50 records)
+2025-08-30 18:00:45,471 - INFO - Sending KOT batch 62/1381 (50 records)
+2025-08-30 18:00:59,874 - INFO - Sending KOT batch 63/1381 (50 records)
+2025-08-30 18:01:13,791 - INFO - Sending KOT batch 64/1381 (50 records)
+2025-08-30 18:01:26,798 - INFO - Sending KOT batch 65/1381 (50 records)
+2025-08-30 18:01:39,351 - INFO - Sending KOT batch 66/1381 (50 records)
+2025-08-30 18:01:52,832 - INFO - Sending KOT batch 67/1381 (50 records)
+2025-08-30 18:02:05,130 - INFO - Sending KOT batch 68/1381 (50 records)
+2025-08-30 18:02:18,992 - INFO - Sending KOT batch 69/1381 (50 records)
+2025-08-30 18:02:32,187 - INFO - Sending KOT batch 70/1381 (50 records)
+2025-08-30 18:02:46,200 - INFO - Sending KOT batch 71/1381 (50 records)
+2025-08-30 18:03:01,317 - INFO - Sending KOT batch 72/1381 (50 records)
+2025-08-30 18:03:14,149 - INFO - Sending KOT batch 73/1381 (50 records)
+2025-08-30 18:03:28,106 - INFO - Sending KOT batch 74/1381 (50 records)
+2025-08-30 18:03:39,080 - INFO - Sending KOT batch 75/1381 (50 records)
+2025-08-30 18:03:52,789 - INFO - Sending KOT batch 76/1381 (50 records)
+2025-08-30 18:04:06,156 - INFO - Sending KOT batch 77/1381 (50 records)
+2025-08-30 18:04:18,470 - INFO - Sending KOT batch 78/1381 (50 records)
+2025-08-30 18:04:29,119 - INFO - Sending KOT batch 79/1381 (50 records)
+2025-08-30 18:04:38,634 - INFO - Sending KOT batch 80/1381 (50 records)
+2025-08-30 18:04:49,657 - INFO - Sending KOT batch 81/1381 (50 records)
+2025-08-30 18:04:58,309 - INFO - Sending KOT batch 82/1381 (50 records)
+2025-08-30 18:05:09,571 - INFO - Sending KOT batch 83/1381 (50 records)
+2025-08-30 18:05:20,824 - INFO - Sending KOT batch 84/1381 (50 records)
+2025-08-30 18:05:31,772 - INFO - Sending KOT batch 85/1381 (50 records)
+2025-08-30 18:05:43,785 - INFO - Sending KOT batch 86/1381 (50 records)
+2025-08-30 18:05:57,949 - INFO - Sending KOT batch 87/1381 (50 records)
+2025-08-30 18:06:12,713 - INFO - Sending KOT batch 88/1381 (50 records)
+2025-08-30 18:06:27,726 - INFO - Sending KOT batch 89/1381 (50 records)
+2025-08-30 18:06:40,849 - INFO - Sending KOT batch 90/1381 (50 records)
+2025-08-30 18:06:55,670 - INFO - Sending KOT batch 91/1381 (50 records)
+2025-08-30 18:07:10,000 - INFO - Sending KOT batch 92/1381 (50 records)
+2025-08-30 18:07:24,599 - INFO - Sending KOT batch 93/1381 (50 records)
+2025-08-30 18:07:38,787 - INFO - Sending KOT batch 94/1381 (50 records)
+2025-08-30 18:07:53,669 - INFO - Sending KOT batch 95/1381 (50 records)
+2025-08-30 18:08:07,438 - INFO - Sending KOT batch 96/1381 (50 records)
+2025-08-30 18:08:19,110 - INFO - Sending KOT batch 97/1381 (50 records)
+2025-08-30 18:08:31,966 - INFO - Sending KOT batch 98/1381 (50 records)
+2025-08-30 18:08:43,668 - INFO - Sending KOT batch 99/1381 (50 records)
+2025-08-30 18:08:55,669 - INFO - Sending KOT batch 100/1381 (50 records)
+2025-08-30 18:09:08,890 - INFO - Sending KOT batch 101/1381 (50 records)
+2025-08-30 18:09:21,699 - INFO - Sending KOT batch 102/1381 (50 records)
+2025-08-30 18:09:34,678 - INFO - Sending KOT batch 103/1381 (50 records)
+2025-08-30 18:09:50,126 - INFO - Sending KOT batch 104/1381 (50 records)
+2025-08-30 18:10:05,811 - INFO - Sending KOT batch 105/1381 (50 records)
+2025-08-30 18:10:20,116 - INFO - Sending KOT batch 106/1381 (50 records)
+2025-08-30 18:10:31,481 - INFO - Sending KOT batch 107/1381 (50 records)
+2025-08-30 18:10:43,275 - INFO - Sending KOT batch 108/1381 (50 records)
+2025-08-30 18:10:56,593 - INFO - Sending KOT batch 109/1381 (50 records)
+2025-08-30 18:11:08,711 - INFO - Sending KOT batch 110/1381 (50 records)
+2025-08-30 18:11:25,345 - INFO - Sending KOT batch 111/1381 (50 records)
+2025-08-30 18:11:39,590 - INFO - Sending KOT batch 112/1381 (50 records)
+2025-08-30 18:11:51,691 - INFO - Sending KOT batch 113/1381 (50 records)
+2025-08-30 18:12:06,152 - INFO - Sending KOT batch 114/1381 (50 records)
+2025-08-30 18:12:17,389 - INFO - Sending KOT batch 115/1381 (50 records)
+2025-08-30 18:12:30,389 - INFO - Sending KOT batch 116/1381 (50 records)
+2025-08-30 18:12:45,033 - INFO - Sending KOT batch 117/1381 (50 records)
+2025-08-30 18:13:00,878 - INFO - Sending KOT batch 118/1381 (50 records)
+2025-08-30 18:13:15,032 - INFO - Sending KOT batch 119/1381 (50 records)
+2025-08-30 18:13:28,793 - INFO - Sending KOT batch 120/1381 (50 records)
+2025-08-30 18:13:42,283 - INFO - Sending KOT batch 121/1381 (50 records)
+2025-08-30 18:13:57,109 - INFO - Sending KOT batch 122/1381 (50 records)
+2025-08-30 18:14:12,922 - INFO - Sending KOT batch 123/1381 (50 records)
+2025-08-30 18:14:29,594 - INFO - Sending KOT batch 124/1381 (50 records)
+2025-08-30 18:14:45,808 - INFO - Sending KOT batch 125/1381 (50 records)
+2025-08-30 18:15:00,833 - INFO - Sending KOT batch 126/1381 (50 records)
+2025-08-30 18:15:15,426 - INFO - Sending KOT batch 127/1381 (50 records)
+2025-08-30 18:15:30,009 - INFO - Sending KOT batch 128/1381 (50 records)
+2025-08-30 18:15:45,396 - INFO - Sending KOT batch 129/1381 (50 records)
+2025-08-30 18:15:57,826 - INFO - Sending KOT batch 130/1381 (50 records)
+2025-08-30 18:16:11,507 - INFO - Sending KOT batch 131/1381 (50 records)
+2025-08-30 18:16:25,718 - INFO - Sending KOT batch 132/1381 (50 records)
+2025-08-30 18:16:39,457 - INFO - Sending KOT batch 133/1381 (50 records)
+2025-08-30 18:17:02,802 - ERROR - KOT batch 133 failed. Response: {'error': 'consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.\nserver closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.'}
+2025-08-30 18:17:02,870 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:17:02,975 - INFO - Database connection successful
+2025-08-30 18:17:03,058 - INFO - Fetched 0 cancelled_bills records (colnstatus='C') from last 7 days
+2025-08-30 18:17:03,060 - INFO - No cancelled bill records (colnstatus='C') found in the last 7 days
+2025-08-30 18:17:05,061 - INFO - Cancelled Bills sync completed
+2025-08-30 18:18:46,587 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:18:48,819 - INFO - Database connection successful
+2025-08-30 18:18:48,823 - INFO - Fetched 3 acc_users records
+2025-08-30 18:19:05,491 - INFO - AccUsers sync completed
+2025-08-30 18:19:05,497 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:19:05,585 - INFO - Database connection successful
+2025-08-30 18:19:05,646 - INFO - Fetched 269 tb_item_master records
+2025-08-30 18:19:05,646 - INFO - Processing 269 records in batches of 1000
+2025-08-30 18:19:05,647 - INFO - Sending batch 1/1 (269 records)
+2025-08-30 18:20:32,610 - INFO - Items sync completed
+2025-08-30 18:20:32,638 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:20:32,805 - INFO - Database connection successful
+2025-08-30 18:20:32,831 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 18:20:32,831 - INFO - No bill records found in the last 7 days
+2025-08-30 18:20:34,007 - INFO - Bills sync completed
+2025-08-30 18:20:34,023 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:20:34,116 - INFO - Database connection successful
+2025-08-30 18:20:36,765 - INFO - Fetched 69010 dine_kot_sales_detail records (ALL data)
+2025-08-30 18:20:36,765 - INFO - Processing 69010 records in batches of 1000
+2025-08-30 18:20:36,766 - INFO - Sending KOT batch 1/70 (1000 records)
+2025-08-30 18:22:36,773 - ERROR - KOT batch 1 failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=120)
+2025-08-30 18:22:36,786 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:22:36,913 - INFO - Database connection successful
+2025-08-30 18:22:36,940 - INFO - Fetched 0 cancelled_bills records (colnstatus='C') from last 7 days
+2025-08-30 18:22:36,941 - INFO - No cancelled bill records (colnstatus='C') found in the last 7 days
+2025-08-30 18:22:38,004 - INFO - Cancelled Bills sync completed
+2025-08-30 18:23:19,484 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:23:19,908 - INFO - Database connection successful
+2025-08-30 18:23:19,912 - INFO - Fetched 3 acc_users records
+2025-08-30 18:23:21,968 - INFO - AccUsers sync completed
+2025-08-30 18:23:21,979 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:23:22,164 - INFO - Database connection successful
+2025-08-30 18:23:22,212 - INFO - Fetched 269 tb_item_master records
+2025-08-30 18:23:22,214 - INFO - Processing 269 records in batches of 1000
+2025-08-30 18:23:22,215 - INFO - Sending batch 1/1 (269 records)
+2025-08-30 18:24:48,686 - INFO - Items sync completed
+2025-08-30 18:24:48,701 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:24:48,805 - INFO - Database connection successful
+2025-08-30 18:24:48,897 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 18:24:48,898 - INFO - No bill records found in the last 7 days
+2025-08-30 18:24:49,865 - INFO - Bills sync completed
+2025-08-30 18:24:49,873 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:24:50,003 - INFO - Database connection successful
+2025-08-30 18:24:53,046 - INFO - Fetched 69010 dine_kot_sales_detail records (ALL data)
+2025-08-30 18:24:53,047 - INFO - Processing 69010 records in batches of 500
+2025-08-30 18:24:53,047 - INFO - Sending KOT batch 1/139 (500 records)
+2025-08-30 18:26:49,529 - INFO - Sending KOT batch 2/139 (500 records)
+2025-08-30 18:29:18,468 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:29:18,647 - INFO - Database connection successful
+2025-08-30 18:29:18,649 - INFO - Fetched 3 acc_users records
+2025-08-30 18:29:20,322 - INFO - AccUsers sync completed
+2025-08-30 18:29:20,328 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:29:20,416 - INFO - Database connection successful
+2025-08-30 18:29:20,523 - INFO - Fetched 269 tb_item_master records
+2025-08-30 18:29:20,524 - INFO - Processing 269 records in batches of 1000
+2025-08-30 18:29:20,525 - INFO - Sending batch 1/1 (269 records)
+2025-08-30 18:31:03,526 - INFO - Items sync completed
+2025-08-30 18:31:03,540 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:31:03,672 - INFO - Database connection successful
+2025-08-30 18:31:03,751 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 18:31:03,752 - INFO - No bill records found in the last 7 days
+2025-08-30 18:31:05,404 - INFO - Bills sync completed
+2025-08-30 18:31:05,411 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:31:05,449 - INFO - Database connection successful
+2025-08-30 18:31:05,454 - ERROR - KOT Sales Detail sync error: 'kot_sales_sync'
+2025-08-30 18:31:05,459 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:31:05,492 - INFO - Database connection successful
+2025-08-30 18:31:05,541 - INFO - Fetched 0 cancelled_bills records (colnstatus='C') from last 7 days
+2025-08-30 18:31:05,548 - INFO - No cancelled bill records (colnstatus='C') found in the last 7 days
+2025-08-30 18:31:07,373 - INFO - Cancelled Bills sync completed
+2025-08-30 18:39:22,728 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:39:22,980 - INFO - Database connection successful
+2025-08-30 18:39:22,982 - INFO - Fetched 3 acc_users records
+2025-08-30 18:39:25,303 - INFO - AccUsers sync completed
+2025-08-30 18:39:25,305 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:39:25,365 - INFO - Database connection successful
+2025-08-30 18:39:25,394 - INFO - Fetched 269 tb_item_master records
+2025-08-30 18:39:25,394 - INFO - Processing 269 records in batches of 1000
+2025-08-30 18:39:25,395 - INFO - Sending batch 1/1 (269 records)
+2025-08-30 18:41:04,443 - INFO - Items sync completed
+2025-08-30 18:41:04,445 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:41:04,506 - INFO - Database connection successful
+2025-08-30 18:41:04,514 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 18:41:04,515 - INFO - No bill records found in the last 7 days
+2025-08-30 18:41:05,844 - INFO - Bills sync completed
+2025-08-30 18:41:05,846 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:41:05,933 - INFO - Database connection successful
+2025-08-30 18:41:05,935 - ERROR - KOT Sales Detail sync error: 'kot_sales_sync'
+2025-08-30 18:41:05,937 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:41:05,954 - INFO - Database connection successful
+2025-08-30 18:41:06,027 - INFO - Fetched 0 cancelled_bills records (colnstatus='C') from last 7 days
+2025-08-30 18:41:06,027 - INFO - No cancelled bill records (colnstatus='C') found in the last 7 days
+2025-08-30 18:41:07,447 - INFO - Cancelled Bills sync completed
+2025-08-30 18:42:36,505 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:42:36,707 - INFO - Database connection successful
+2025-08-30 18:42:36,709 - INFO - Fetched 3 acc_users records
+2025-08-30 18:42:38,284 - INFO - AccUsers sync completed
+2025-08-30 18:42:38,286 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:42:38,298 - INFO - Database connection successful
+2025-08-30 18:42:38,319 - INFO - Fetched 269 tb_item_master records
+2025-08-30 18:42:38,320 - INFO - Processing 269 records in batches of 1000
+2025-08-30 18:42:38,320 - INFO - Sending batch 1/1 (269 records)
+2025-08-30 18:44:04,246 - INFO - Items sync completed
+2025-08-30 18:44:04,248 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:44:04,256 - INFO - Database connection successful
+2025-08-30 18:44:04,302 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 18:44:04,343 - INFO - No bill records found in the last 7 days
+2025-08-30 18:44:05,289 - INFO - Bills sync completed
+2025-08-30 18:44:05,291 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:44:05,304 - INFO - Database connection successful
+2025-08-30 18:44:05,305 - ERROR - KOT Sales Detail sync error: 'kot_sales_sync'
+2025-08-30 18:44:05,307 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:44:05,331 - INFO - Database connection successful
+2025-08-30 18:44:05,346 - INFO - Fetched 0 cancelled_bills records (colnstatus='C', ALL data)
+2025-08-30 18:44:05,346 - INFO - No cancelled bill records (colnstatus='C') found in the last 7 days
+2025-08-30 18:44:06,804 - INFO - Cancelled Bills sync completed
+2025-08-30 18:45:24,812 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:45:25,010 - INFO - Database connection successful
+2025-08-30 18:45:25,012 - INFO - Fetched 3 acc_users records
+2025-08-30 18:45:27,164 - INFO - AccUsers sync completed
+2025-08-30 18:45:27,166 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:45:27,174 - INFO - Database connection successful
+2025-08-30 18:45:27,196 - INFO - Fetched 269 tb_item_master records
+2025-08-30 18:45:27,197 - INFO - Processing 269 records in batches of 1000
+2025-08-30 18:45:27,197 - INFO - Sending batch 1/1 (269 records)
+2025-08-30 18:47:18,043 - INFO - Items sync completed
+2025-08-30 18:47:18,046 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:47:18,055 - INFO - Database connection successful
+2025-08-30 18:47:18,061 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 18:47:18,061 - INFO - No bill records found in the last 7 days
+2025-08-30 18:47:19,204 - INFO - Bills sync completed
+2025-08-30 18:47:19,233 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:47:19,246 - INFO - Database connection successful
+2025-08-30 18:47:20,901 - INFO - Fetched 69010 dine_kot_sales_detail records (ALL data)
+2025-08-30 18:47:20,901 - INFO - Processing 69010 records in batches of 500
+2025-08-30 18:47:20,902 - INFO - Sending KOT batch 1/139 (500 records)
+2025-08-30 18:49:16,644 - INFO - Sending KOT batch 2/139 (500 records)
+2025-08-30 18:50:59,686 - INFO - Sending KOT batch 3/139 (500 records)
+2025-08-30 18:53:11,012 - INFO - Sending KOT batch 4/139 (500 records)
+2025-08-30 18:54:35,061 - ERROR - KOT batch 4 failed. Response: {'error': 'consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.\nserver closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.'}
+2025-08-30 18:54:35,088 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:54:35,106 - INFO - Database connection successful
+2025-08-30 18:54:35,140 - INFO - Fetched 0 cancelled_bills records (colnstatus='C', ALL data)
+2025-08-30 18:54:35,141 - INFO - No cancelled bill records (colnstatus='C') found in the last 7 days
+2025-08-30 18:54:36,283 - INFO - Cancelled Bills sync completed
+2025-08-30 18:58:41,714 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:58:42,481 - INFO - Database connection successful
+2025-08-30 18:58:42,484 - INFO - Fetched 3 acc_users records
+2025-08-30 18:58:44,046 - INFO - AccUsers sync completed
+2025-08-30 18:58:44,048 - INFO - Connecting to DSN: dinedb
+2025-08-30 18:58:44,073 - INFO - Database connection successful
+2025-08-30 18:58:44,103 - INFO - Fetched 269 tb_item_master records
+2025-08-30 18:58:44,103 - INFO - Processing 269 records in batches of 1000
+2025-08-30 18:58:44,103 - INFO - Sending batch 1/1 (269 records)
+2025-08-30 19:00:10,443 - INFO - Items sync completed
+2025-08-30 19:00:10,445 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:00:10,569 - INFO - Database connection successful
+2025-08-30 19:00:10,575 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 19:00:10,575 - INFO - No bill records found in the last 7 days
+2025-08-30 19:00:12,483 - INFO - Bills sync completed
+2025-08-30 19:00:12,484 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:00:12,498 - INFO - Database connection successful
+2025-08-30 19:00:14,094 - INFO - Fetched 69010 dine_kot_sales_detail records (ALL data)
+2025-08-30 19:00:14,095 - INFO - Processing 69010 records in batches of 100
+2025-08-30 19:00:14,095 - INFO - Sending KOT batch 1/691 (100 records)
+2025-08-30 19:00:40,894 - INFO - Sending KOT batch 2/691 (100 records)
+2025-08-30 19:01:04,452 - INFO - Sending KOT batch 3/691 (100 records)
+2025-08-30 19:01:28,043 - INFO - Sending KOT batch 4/691 (100 records)
+2025-08-30 19:01:51,763 - INFO - Sending KOT batch 5/691 (100 records)
+2025-08-30 19:02:14,930 - INFO - Sending KOT batch 6/691 (100 records)
+2025-08-30 19:02:38,163 - INFO - Sending KOT batch 7/691 (100 records)
+2025-08-30 19:03:00,602 - INFO - Sending KOT batch 8/691 (100 records)
+2025-08-30 19:03:22,403 - INFO - Sending KOT batch 9/691 (100 records)
+2025-08-30 19:03:45,483 - INFO - Sending KOT batch 10/691 (100 records)
+2025-08-30 19:04:10,058 - INFO - Sending KOT batch 11/691 (100 records)
+2025-08-30 19:04:34,643 - INFO - Sending KOT batch 12/691 (100 records)
+2025-08-30 19:06:11,897 - ERROR - KOT batch 12 failed. Response: {'error': 'consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.\nserver closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.'}
+2025-08-30 19:06:11,968 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:06:11,984 - INFO - Database connection successful
+2025-08-30 19:06:11,997 - INFO - Fetched 0 cancelled_bills records (colnstatus='C', ALL data)
+2025-08-30 19:06:11,997 - INFO - No cancelled bill records (colnstatus='C') found in the last 7 days
+2025-08-30 19:06:42,035 - ERROR - Cancelled Bills sync failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)
