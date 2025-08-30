@@ -144,19 +144,128 @@ class ItemsSync(BaseSync):
             conn.close()
 
 
+# ---------- DINE BILLS ----------
+class BillsSync(BaseSync):
+    def __init__(self):
+        super().__init__('bills_sync')
+
+    def fetch(self, conn):
+        fields = self.config['bills_sync']['fields']
+        # Quote field names to handle reserved keywords like 'time' and 'user'
+        quoted_fields = [f'"{field}"' for field in fields]
+        
+        # SQL query to get only last 7 days data
+        sql = f"""SELECT {', '.join(quoted_fields)} 
+                  FROM dine_bill 
+                  WHERE "time" >= DATEADD(day, -7, GETDATE())
+                  ORDER BY "time" DESC"""
+        
+        cursor = conn.cursor()
+        cursor.execute(sql)
+        
+        rows = []
+        for row in cursor:
+            try:
+                row_dict = dict(zip(fields, row))
+                
+                # Handle datetime conversion
+                if row_dict.get('time'):
+                    if hasattr(row_dict['time'], 'isoformat'):
+                        row_dict['time'] = row_dict['time'].isoformat()
+                    elif row_dict['time'] is not None:
+                        # Convert to string if it's not None and doesn't have isoformat
+                        row_dict['time'] = str(row_dict['time'])
+                
+                # Convert billno to string for JSON serialization
+                if row_dict.get('billno') is not None:
+                    row_dict['billno'] = str(int(float(row_dict['billno'])))
+                
+                # Handle user field - strip whitespace if it exists
+                if row_dict.get('user'):
+                    row_dict['user'] = str(row_dict['user']).strip()
+                
+                # Handle amount - ensure it's a proper decimal/float
+                if row_dict.get('amount') is not None:
+                    row_dict['amount'] = float(row_dict['amount'])
+                
+                rows.append(row_dict)
+                
+            except Exception as e:
+                self.logger.error(f"Error processing row {row}: {str(e)}")
+                continue
+        
+        cursor.close()
+        self.logger.info(f"Fetched {len(rows)} dine_bill records from last 7 days")
+        return rows
+
+    def run(self):
+        conn = self.connect_to_database()
+        if not conn:
+            return False
+        try:
+            data = self.fetch(conn)
+            if data is None:
+                return False
+            
+            # Log sample data for debugging
+            if data:
+                self.logger.info(f"Sample bill record: {data[0]}")
+                self.logger.info(f"Date range: Last 7 days from today")
+            else:
+                self.logger.info("No bill records found in the last 7 days")
+            
+            ok, response = self.api_post(self.config['api']['bills_endpoint'], data)
+            if ok:
+                self.logger.info("Bills sync completed")
+            else:
+                self.logger.error(f"Bills sync failed. Response: {response}")
+            return ok
+        except Exception as e:
+            self.logger.error(f"Bills sync error: {str(e)}")
+            return False
+        finally:
+            conn.close()
+
+
 # ---------- MAIN ----------
 def main():
     print("=== Starting Full Sync ===")
+    print("Syncing 3 tables: acc_users, tb_item_master, dine_bill")
+    print()
+    
+    # Run all syncs
+    sync_results = []
+    
+    print("1. Syncing acc_users...")
     ok1 = AccUsersSync().run()
+    sync_results.append(("acc_users", ok1))
+    
+    print("2. Syncing tb_item_master...")
     ok2 = ItemsSync().run()
+    sync_results.append(("tb_item_master", ok2))
+    
+    print("3. Syncing dine_bill...")
+    ok3 = BillsSync().run()
+    sync_results.append(("dine_bill", ok3))
 
-    print("\n" + "=" * 50)
-    if ok1 and ok2:
-        print("All tables synced successfully!")
+    print("\n" + "=" * 60)
+    print("SYNC RESULTS:")
+    print("=" * 60)
+    
+    all_success = True
+    for table_name, success in sync_results:
+        status = "✓ SUCCESS" if success else "✗ FAILED"
+        print(f"{table_name:20} - {status}")
+        if not success:
+            all_success = False
+    
+    print("=" * 60)
+    if all_success:
+        print("🎉 All tables synced successfully!")
     else:
-        print("One or more tables failed. Check sync.log")
-    print("=" * 50)
-    input("Press Enter to exit...")
+        print("⚠️  One or more tables failed. Check sync.log for details")
+    print("=" * 60)
+    input("\nPress Enter to exit...")
 
 
 if __name__ == "__main__":

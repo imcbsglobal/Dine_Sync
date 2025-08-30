@@ -1,6 +1,6 @@
 {
   "database": {
-    "dsn": "SYSMAC",
+    "dsn": "DINE",
     "username": "DBA",
     "password": "(*$^)"
   },
@@ -8,7 +8,8 @@
     "base_url": "http://127.0.0.1:8000",
     "endpoint": "/api/acc_users/",
     "timeout": 30,
-    "items_endpoint": "/api/items/"
+    "items_endpoint": "/api/items/",
+    "bills_endpoint": "/api/bills/"
   },
   "sync": {
     "table_name": "acc_users",
@@ -24,5 +25,11 @@
       "kitchen", "category"
     ],
     "batch_size": 100
+  },
+  "bills_sync": {
+    "table_name": "dine_bill",
+    "fields": ["billno", "time", "user", "amount"],
+    "batch_size": 100,
+    "log_level": "INFO"
   }
 }

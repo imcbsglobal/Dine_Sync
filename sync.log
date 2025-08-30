@@ -229,3 +229,220 @@
 2025-08-14 14:49:09,871 - INFO - Connecting to DSN: SYSMAC
 2025-08-14 14:49:09,982 - INFO - Database connection successful
 2025-08-14 14:49:10,017 - INFO - Fetched 269 tb_item_master records
+2025-08-27 13:16:56,355 - INFO - Connecting to DSN: SYSMAC
+2025-08-27 13:16:57,184 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Database server not found (-100) (SQLDriverConnect)')
+2025-08-27 13:16:57,187 - INFO - Connecting to DSN: SYSMAC
+2025-08-27 13:16:57,190 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Database server not found (-100) (SQLDriverConnect)')
+2025-08-27 13:18:16,829 - INFO - Connecting to DSN: OMEGA
+2025-08-27 13:18:17,013 - INFO - Database connection successful
+2025-08-27 13:18:17,017 - INFO - Fetched 17 acc_users records
+2025-08-27 13:18:19,066 - INFO - Connecting to DSN: OMEGA
+2025-08-27 13:18:19,077 - INFO - Database connection successful
+2025-08-27 13:18:50,484 - INFO - Connecting to DSN: SYSMAC
+2025-08-27 13:18:50,675 - INFO - Database connection successful
+2025-08-27 13:18:50,677 - INFO - Fetched 17 acc_users records
+2025-08-27 13:18:52,740 - INFO - Connecting to DSN: SYSMAC
+2025-08-27 13:18:52,757 - INFO - Database connection successful
+2025-08-27 13:21:35,380 - INFO - Connecting to DSN: SYSMAC
+2025-08-27 13:21:35,609 - INFO - Database connection successful
+2025-08-27 13:21:35,611 - INFO - Fetched 17 acc_users records
+2025-08-27 13:21:37,664 - INFO - Connecting to DSN: SYSMAC
+2025-08-27 13:21:37,678 - INFO - Database connection successful
+2025-08-27 13:26:46,484 - INFO - Connecting to DSN: DINE
+2025-08-27 13:26:46,706 - INFO - Database connection successful
+2025-08-27 13:26:46,709 - INFO - Fetched 2 acc_users records
+2025-08-27 13:26:48,772 - INFO - Connecting to DSN: DINE
+2025-08-27 13:26:48,787 - INFO - Database connection successful
+2025-08-27 13:26:48,798 - INFO - Fetched 133 tb_item_master records
+2025-08-27 15:03:43,344 - INFO - Connecting to DSN: DINE
+2025-08-27 15:03:43,934 - INFO - Database connection successful
+2025-08-27 15:03:43,936 - INFO - Fetched 2 acc_users records
+2025-08-27 15:03:46,023 - INFO - Connecting to DSN: DINE
+2025-08-27 15:03:46,038 - INFO - Database connection successful
+2025-08-27 15:03:46,058 - INFO - Fetched 133 tb_item_master records
+2025-08-27 15:07:45,717 - INFO - Connecting to DSN: DINE
+2025-08-27 15:07:45,922 - INFO - Database connection successful
+2025-08-27 15:07:45,924 - INFO - Fetched 2 acc_users records
+2025-08-27 15:07:46,282 - INFO - Connecting to DSN: DINE
+2025-08-27 15:07:46,299 - INFO - Database connection successful
+2025-08-27 15:07:46,319 - INFO - Fetched 133 tb_item_master records
+2025-08-27 15:08:01,441 - INFO - Items sync completed
+2025-08-27 17:04:34,883 - INFO - Connecting to DSN: DINE
+2025-08-27 17:04:35,159 - INFO - Database connection successful
+2025-08-27 17:04:35,162 - INFO - Fetched 2 acc_users records
+2025-08-27 17:04:35,688 - INFO - AccUsers sync completed
+2025-08-27 17:04:35,707 - INFO - Connecting to DSN: DINE
+2025-08-27 17:04:35,724 - INFO - Database connection successful
+2025-08-27 17:04:35,740 - INFO - Fetched 133 tb_item_master records
+2025-08-27 17:04:49,706 - INFO - Items sync completed
+2025-08-27 17:06:21,674 - INFO - Connecting to DSN: DINE
+2025-08-27 17:06:21,876 - INFO - Database connection successful
+2025-08-27 17:06:21,877 - INFO - Fetched 2 acc_users records
+2025-08-27 17:06:22,390 - INFO - AccUsers sync completed
+2025-08-27 17:06:22,393 - INFO - Connecting to DSN: DINE
+2025-08-27 17:06:22,407 - INFO - Database connection successful
+2025-08-27 17:06:22,417 - INFO - Fetched 133 tb_item_master records
+2025-08-27 17:06:37,781 - INFO - Items sync completed
+2025-08-27 17:06:37,785 - INFO - Connecting to DSN: DINE
+2025-08-27 17:06:37,800 - INFO - Database connection successful
+2025-08-27 17:07:32,346 - INFO - Connecting to DSN: DINE
+2025-08-27 17:07:32,592 - INFO - Database connection successful
+2025-08-27 17:07:32,593 - INFO - Fetched 2 acc_users records
+2025-08-27 17:07:33,199 - INFO - AccUsers sync completed
+2025-08-27 17:07:33,203 - INFO - Connecting to DSN: DINE
+2025-08-27 17:07:33,219 - INFO - Database connection successful
+2025-08-27 17:07:33,231 - INFO - Fetched 133 tb_item_master records
+2025-08-27 17:07:52,188 - INFO - Items sync completed
+2025-08-27 17:07:52,192 - INFO - Connecting to DSN: DINE
+2025-08-27 17:07:52,208 - INFO - Database connection successful
+2025-08-27 17:07:52,216 - INFO - Fetched 2 dine_bill records
+2025-08-27 17:09:47,122 - INFO - Connecting to DSN: DINE
+2025-08-27 17:09:47,324 - INFO - Database connection successful
+2025-08-27 17:09:47,326 - INFO - Fetched 2 acc_users records
+2025-08-27 17:09:47,874 - INFO - AccUsers sync completed
+2025-08-27 17:09:47,878 - INFO - Connecting to DSN: DINE
+2025-08-27 17:09:47,895 - INFO - Database connection successful
+2025-08-27 17:09:47,913 - INFO - Fetched 133 tb_item_master records
+2025-08-27 17:10:03,427 - INFO - Items sync completed
+2025-08-27 17:10:03,430 - INFO - Connecting to DSN: DINE
+2025-08-27 17:10:03,448 - INFO - Database connection successful
+2025-08-27 17:10:03,454 - INFO - Fetched 2 dine_bill records
+2025-08-27 17:10:03,454 - INFO - Sample bill record: {'billno': '1', 'time': '2025-08-19T17:24:15.520000', 'user': 'Administrator', 'amount': 0.0}
+2025-08-27 17:10:04,024 - ERROR - Bills sync failed. Response: {'error': 'column "user" of relation "dine_bill" does not exist\nLINE 1: INSERT INTO "dine_bill" ("billno", "time", "user", "amount")...\n                                                   ^'}
+2025-08-27 17:12:51,791 - INFO - Connecting to DSN: DINE
+2025-08-27 17:12:52,013 - INFO - Database connection successful
+2025-08-27 17:12:52,015 - INFO - Fetched 2 acc_users records
+2025-08-27 17:12:52,523 - INFO - AccUsers sync completed
+2025-08-27 17:12:52,527 - INFO - Connecting to DSN: DINE
+2025-08-27 17:12:52,540 - INFO - Database connection successful
+2025-08-27 17:12:52,553 - INFO - Fetched 133 tb_item_master records
+2025-08-27 17:13:05,534 - INFO - Items sync completed
+2025-08-27 17:13:05,540 - INFO - Connecting to DSN: DINE
+2025-08-27 17:13:05,560 - INFO - Database connection successful
+2025-08-27 17:13:05,563 - INFO - Fetched 2 dine_bill records
+2025-08-27 17:13:05,565 - INFO - Sample bill record: {'billno': '1', 'time': '2025-08-19T17:24:15.520000', 'user': 'Administrator', 'amount': 0.0}
+2025-08-27 17:13:06,063 - INFO - Bills sync completed
+2025-08-27 17:23:40,618 - INFO - Connecting to DSN: DINE
+2025-08-27 17:23:40,829 - INFO - Database connection successful
+2025-08-27 17:23:40,831 - INFO - Fetched 2 acc_users records
+2025-08-27 17:23:41,337 - INFO - AccUsers sync completed
+2025-08-27 17:23:41,342 - INFO - Connecting to DSN: DINE
+2025-08-27 17:23:41,359 - INFO - Database connection successful
+2025-08-27 17:23:41,371 - INFO - Fetched 133 tb_item_master records
+2025-08-27 17:23:55,131 - INFO - Items sync completed
+2025-08-27 17:23:55,136 - INFO - Connecting to DSN: DINE
+2025-08-27 17:23:55,163 - INFO - Database connection successful
+2025-08-27 17:23:55,165 - INFO - Fetched 2 dine_bill records
+2025-08-27 17:23:55,166 - INFO - Sample bill record: {'billno': '1', 'time': '2025-08-19T17:24:15.520000', 'user': 'Administrator', 'amount': 0.0}
+2025-08-27 17:23:55,845 - INFO - Bills sync completed
+2025-08-28 09:53:12,153 - INFO - Connecting to DSN: DINE
+2025-08-28 09:53:18,700 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Specified database not found (-83) (SQLDriverConnect)')
+2025-08-28 09:53:18,704 - INFO - Connecting to DSN: DINE
+2025-08-28 09:53:24,725 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Specified database not found (-83) (SQLDriverConnect)')
+2025-08-28 09:53:24,730 - INFO - Connecting to DSN: DINE
+2025-08-28 09:53:30,377 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Specified database not found (-83) (SQLDriverConnect)')
+2025-08-28 09:54:07,851 - INFO - Connecting to DSN: DINE
+2025-08-28 09:54:08,109 - INFO - Database connection successful
+2025-08-28 09:54:08,113 - INFO - Fetched 2 acc_users records
+2025-08-28 09:54:08,726 - INFO - AccUsers sync completed
+2025-08-28 09:54:08,744 - INFO - Connecting to DSN: DINE
+2025-08-28 09:54:08,764 - INFO - Database connection successful
+2025-08-28 09:54:08,780 - INFO - Fetched 133 tb_item_master records
+2025-08-28 09:54:26,516 - INFO - Items sync completed
+2025-08-28 09:54:26,520 - INFO - Connecting to DSN: DINE
+2025-08-28 09:54:26,545 - INFO - Database connection successful
+2025-08-28 09:54:26,558 - ERROR - Bills sync error: 'bills_sync'
+2025-08-28 09:55:10,070 - INFO - Connecting to DSN: DINE
+2025-08-28 09:55:10,288 - INFO - Database connection successful
+2025-08-28 09:55:10,290 - INFO - Fetched 2 acc_users records
+2025-08-28 09:55:11,328 - INFO - AccUsers sync completed
+2025-08-28 09:55:11,333 - INFO - Connecting to DSN: DINE
+2025-08-28 09:55:11,376 - INFO - Database connection successful
+2025-08-28 09:55:11,391 - INFO - Fetched 133 tb_item_master records
+2025-08-28 09:55:29,218 - INFO - Items sync completed
+2025-08-28 09:55:29,223 - INFO - Connecting to DSN: DINE
+2025-08-28 09:55:29,273 - INFO - Database connection successful
+2025-08-28 09:55:29,274 - ERROR - Bills sync error: 'bills_sync'
+2025-08-28 09:58:16,102 - INFO - Connecting to DSN: DINE
+2025-08-28 09:58:16,313 - INFO - Database connection successful
+2025-08-28 09:58:16,314 - INFO - Fetched 2 acc_users records
+2025-08-28 09:58:16,868 - INFO - AccUsers sync completed
+2025-08-28 09:58:16,870 - INFO - Connecting to DSN: DINE
+2025-08-28 09:58:16,903 - INFO - Database connection successful
+2025-08-28 09:58:16,913 - INFO - Fetched 133 tb_item_master records
+2025-08-28 09:58:33,631 - INFO - Items sync completed
+2025-08-28 09:58:33,634 - INFO - Connecting to DSN: DINE
+2025-08-28 09:58:33,650 - INFO - Database connection successful
+2025-08-28 09:58:33,650 - ERROR - Bills sync error: 'bills_sync'
+2025-08-28 09:58:46,875 - INFO - Connecting to DSN: DINE
+2025-08-28 09:58:47,086 - INFO - Database connection successful
+2025-08-28 09:58:47,088 - INFO - Fetched 2 acc_users records
+2025-08-28 09:58:47,620 - INFO - AccUsers sync completed
+2025-08-28 09:58:47,623 - INFO - Connecting to DSN: DINE
+2025-08-28 09:58:47,657 - INFO - Database connection successful
+2025-08-28 09:58:47,670 - INFO - Fetched 133 tb_item_master records
+2025-08-28 09:59:04,457 - INFO - Items sync completed
+2025-08-28 09:59:04,461 - INFO - Connecting to DSN: DINE
+2025-08-28 09:59:04,481 - INFO - Database connection successful
+2025-08-28 09:59:04,483 - ERROR - Bills sync error: 'bills_sync'
+2025-08-28 09:59:17,299 - INFO - Connecting to DSN: DINE
+2025-08-28 09:59:17,508 - INFO - Database connection successful
+2025-08-28 09:59:17,510 - INFO - Fetched 2 acc_users records
+2025-08-28 09:59:18,039 - INFO - AccUsers sync completed
+2025-08-28 09:59:18,043 - INFO - Connecting to DSN: DINE
+2025-08-28 09:59:18,063 - INFO - Database connection successful
+2025-08-28 09:59:18,084 - INFO - Fetched 133 tb_item_master records
+2025-08-28 09:59:34,593 - INFO - Items sync completed
+2025-08-28 09:59:34,598 - INFO - Connecting to DSN: DINE
+2025-08-28 09:59:34,619 - INFO - Database connection successful
+2025-08-28 09:59:34,621 - ERROR - Bills sync error: 'bills_sync'
+2025-08-28 10:00:46,406 - INFO - Connecting to DSN: DINE
+2025-08-28 10:00:46,624 - INFO - Database connection successful
+2025-08-28 10:00:46,626 - INFO - Fetched 2 acc_users records
+2025-08-28 10:00:47,167 - INFO - AccUsers sync completed
+2025-08-28 10:00:47,172 - INFO - Connecting to DSN: DINE
+2025-08-28 10:00:47,187 - INFO - Database connection successful
+2025-08-28 10:00:47,198 - INFO - Fetched 133 tb_item_master records
+2025-08-28 10:01:05,420 - INFO - Items sync completed
+2025-08-28 10:01:05,424 - INFO - Connecting to DSN: DINE
+2025-08-28 10:01:05,446 - INFO - Database connection successful
+2025-08-28 10:01:05,447 - ERROR - Bills sync error: 'bills_sync'
+2025-08-28 10:04:00,927 - INFO - Connecting to DSN: DINE
+2025-08-28 10:04:01,146 - INFO - Database connection successful
+2025-08-28 10:04:01,148 - INFO - Fetched 2 acc_users records
+2025-08-28 10:04:01,732 - INFO - AccUsers sync completed
+2025-08-28 10:04:01,737 - INFO - Connecting to DSN: DINE
+2025-08-28 10:04:01,754 - INFO - Database connection successful
+2025-08-28 10:04:01,769 - INFO - Fetched 133 tb_item_master records
+2025-08-28 10:04:20,710 - INFO - Items sync completed
+2025-08-28 10:04:20,715 - INFO - Connecting to DSN: DINE
+2025-08-28 10:04:20,742 - INFO - Database connection successful
+2025-08-28 10:04:20,748 - INFO - Fetched 2 dine_bill records
+2025-08-28 10:04:20,748 - INFO - Sample bill record: {'billno': '1', 'time': '2025-08-19T17:24:15.520000', 'user': 'Administrator', 'amount': 0.0}
+2025-08-28 10:04:21,306 - INFO - Bills sync completed
+2025-08-28 10:05:29,054 - INFO - Connecting to DSN: DINE
+2025-08-28 10:05:29,277 - INFO - Database connection successful
+2025-08-28 10:05:29,279 - INFO - Fetched 2 acc_users records
+2025-08-28 10:05:30,432 - INFO - AccUsers sync completed
+2025-08-28 10:05:30,437 - INFO - Connecting to DSN: DINE
+2025-08-28 10:05:30,459 - INFO - Database connection successful
+2025-08-28 10:05:30,480 - INFO - Fetched 133 tb_item_master records
+2025-08-28 10:05:48,746 - INFO - Items sync completed
+2025-08-28 10:05:48,750 - INFO - Connecting to DSN: DINE
+2025-08-28 10:05:48,780 - INFO - Database connection successful
+2025-08-28 10:05:48,784 - INFO - Fetched 2 dine_bill records
+2025-08-28 10:05:48,785 - INFO - Sample bill record: {'billno': '1', 'time': '2025-08-19T17:24:15.520000', 'user': 'Administrator', 'amount': 0.0}
+2025-08-28 10:05:49,776 - INFO - Bills sync completed
+2025-08-28 10:07:49,847 - INFO - Connecting to DSN: DINE
+2025-08-28 10:07:50,115 - INFO - Database connection successful
+2025-08-28 10:07:50,117 - INFO - Fetched 2 acc_users records
+2025-08-28 10:07:50,924 - INFO - AccUsers sync completed
+2025-08-28 10:07:50,927 - INFO - Connecting to DSN: DINE
+2025-08-28 10:07:50,942 - INFO - Database connection successful
+2025-08-28 10:07:50,951 - INFO - Fetched 133 tb_item_master records
+2025-08-28 10:08:09,755 - INFO - Items sync completed
+2025-08-28 10:08:09,760 - INFO - Connecting to DSN: DINE
+2025-08-28 10:08:09,779 - INFO - Database connection successful
+2025-08-28 10:08:09,799 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-28 10:08:09,799 - INFO - No bill records found in the last 7 days
+2025-08-28 10:08:10,217 - INFO - Bills sync completed
