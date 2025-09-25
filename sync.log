@@ -1042,3 +1042,309 @@
 2025-08-30 19:06:11,997 - INFO - Fetched 0 cancelled_bills records (colnstatus='C', ALL data)
 2025-08-30 19:06:11,997 - INFO - No cancelled bill records (colnstatus='C') found in the last 7 days
 2025-08-30 19:06:42,035 - ERROR - Cancelled Bills sync failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=30)
+2025-08-30 19:34:35,983 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:34:35,990 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 19:34:35,993 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:34:35,994 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 19:34:35,996 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:34:35,997 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 19:34:36,000 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:34:36,002 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 19:34:36,004 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:34:36,005 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 19:39:52,618 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:39:52,622 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 19:39:52,625 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:39:52,626 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 19:39:52,628 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:39:52,629 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 19:39:52,632 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:39:52,634 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 19:39:52,636 - INFO - Connecting to DSN: dinedb
+2025-08-30 19:39:52,637 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:58:29,440 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:58:29,459 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:58:29,462 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:58:29,463 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:58:29,466 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:58:29,468 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:58:29,472 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:58:29,473 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:58:29,481 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:58:29,483 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:19,370 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:19,375 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:19,377 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:19,379 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:19,382 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:19,385 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:19,388 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:19,389 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:19,393 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:19,394 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:24,727 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:24,733 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:24,736 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:24,739 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:24,742 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:24,744 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:24,746 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:24,748 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:24,751 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:24,753 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:40,850 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:40,856 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:40,858 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:40,860 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:40,863 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:40,864 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:40,867 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:40,868 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 20:59:40,872 - INFO - Connecting to DSN: dinedb
+2025-08-30 20:59:40,873 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:00:22,960 - INFO - Connecting to DSN: dinedb
+2025-08-30 21:00:22,965 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:00:22,969 - INFO - Connecting to DSN: dinedb
+2025-08-30 21:00:22,969 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:00:22,972 - INFO - Connecting to DSN: dinedb
+2025-08-30 21:00:22,974 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:00:22,976 - INFO - Connecting to DSN: dinedb
+2025-08-30 21:00:22,977 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:00:22,981 - INFO - Connecting to DSN: dinedb
+2025-08-30 21:00:22,981 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:00:32,956 - INFO - Connecting to DSN: dinedb
+2025-08-30 21:00:32,961 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:00:32,963 - INFO - Connecting to DSN: dinedb
+2025-08-30 21:00:32,965 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:00:32,968 - INFO - Connecting to DSN: dinedb
+2025-08-30 21:00:32,969 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:00:32,973 - INFO - Connecting to DSN: dinedb
+2025-08-30 21:00:32,974 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:00:32,980 - INFO - Connecting to DSN: dinedb
+2025-08-30 21:00:32,982 - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-08-30 21:01:18,959 - INFO - Connecting to DSN: DINE
+2025-08-30 21:01:19,206 - INFO - Database connection successful
+2025-08-30 21:01:19,222 - INFO - Fetched 2 acc_users records
+2025-08-30 21:01:20,273 - INFO - AccUsers sync completed
+2025-08-30 21:01:20,277 - INFO - Connecting to DSN: DINE
+2025-08-30 21:01:20,347 - INFO - Database connection successful
+2025-08-30 21:01:20,402 - INFO - Fetched 133 tb_item_master records
+2025-08-30 21:01:20,402 - INFO - Processing 133 records in batches of 1000
+2025-08-30 21:01:20,403 - INFO - Sending batch 1/1 (133 records)
+2025-08-30 21:01:50,088 - INFO - Items sync completed
+2025-08-30 21:01:50,092 - INFO - Connecting to DSN: DINE
+2025-08-30 21:01:50,122 - INFO - Database connection successful
+2025-08-30 21:01:50,124 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-08-30 21:01:50,125 - INFO - No bill records found in the last 7 days
+2025-08-30 21:01:50,990 - INFO - Bills sync completed
+2025-08-30 21:01:50,994 - INFO - Connecting to DSN: DINE
+2025-08-30 21:01:51,007 - INFO - Database connection successful
+2025-08-30 21:01:51,011 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-08-30 21:01:51,012 - INFO - Processing 2 records in batches of 500
+2025-08-30 21:01:51,012 - INFO - Sending KOT batch 1/1 (2 records)
+2025-08-30 21:01:52,027 - INFO - KOT Sales Detail sync completed
+2025-08-30 21:01:52,030 - INFO - Connecting to DSN: DINE
+2025-08-30 21:01:52,044 - INFO - Database connection successful
+2025-08-30 21:01:52,048 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-08-30 21:01:52,048 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-08-30 21:01:52,048 - INFO - Date range: All data where colnstatus='C'
+2025-08-30 21:01:53,154 - INFO - Cancelled Bills sync completed
+2025-09-19 09:43:11,224 - INFO - Connecting to DSN: DINE
+2025-09-19 09:43:11,511 - INFO - Database connection successful
+2025-09-19 09:43:11,516 - INFO - Fetched 2 acc_users records
+2025-09-19 09:43:12,360 - INFO - AccUsers sync completed
+2025-09-19 09:43:12,376 - INFO - Connecting to DSN: DINE
+2025-09-19 09:43:12,395 - INFO - Database connection successful
+2025-09-19 09:43:12,413 - INFO - Fetched 133 tb_item_master records
+2025-09-19 09:43:12,414 - INFO - Processing 133 records in batches of 1000
+2025-09-19 09:43:12,414 - INFO - Sending batch 1/1 (133 records)
+2025-09-19 09:43:31,879 - INFO - Items sync completed
+2025-09-19 09:43:31,884 - INFO - Connecting to DSN: DINE
+2025-09-19 09:43:31,900 - INFO - Database connection successful
+2025-09-19 09:43:31,909 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-09-19 09:43:31,911 - INFO - No bill records found in the last 7 days
+2025-09-19 09:43:32,442 - INFO - Bills sync completed
+2025-09-19 09:43:32,446 - INFO - Connecting to DSN: DINE
+2025-09-19 09:43:32,463 - INFO - Database connection successful
+2025-09-19 09:43:32,481 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-19 09:43:32,481 - INFO - Processing 2 records in batches of 500
+2025-09-19 09:43:32,482 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-19 09:43:33,168 - INFO - KOT Sales Detail sync completed
+2025-09-19 09:43:33,174 - INFO - Connecting to DSN: DINE
+2025-09-19 09:43:33,192 - INFO - Database connection successful
+2025-09-19 09:43:33,196 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-19 09:43:33,196 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-19 09:43:33,197 - INFO - Date range: All data where colnstatus='C'
+2025-09-19 09:43:33,733 - INFO - Cancelled Bills sync completed
+2025-09-19 09:44:27,902 - INFO - Connecting to DSN: DINE
+2025-09-19 09:44:28,138 - INFO - Database connection successful
+2025-09-19 09:44:28,140 - INFO - Fetched 2 acc_users records
+2025-09-19 09:44:28,702 - INFO - AccUsers sync completed
+2025-09-19 09:44:28,707 - INFO - Connecting to DSN: DINE
+2025-09-19 09:44:28,723 - INFO - Database connection successful
+2025-09-19 09:44:28,735 - INFO - Fetched 133 tb_item_master records
+2025-09-19 09:44:28,736 - INFO - Processing 133 records in batches of 1000
+2025-09-19 09:44:28,737 - INFO - Sending batch 1/1 (133 records)
+2025-09-19 09:44:48,953 - INFO - Items sync completed
+2025-09-19 09:44:48,958 - INFO - Connecting to DSN: DINE
+2025-09-19 09:44:48,976 - INFO - Database connection successful
+2025-09-19 09:44:48,979 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-09-19 09:44:48,979 - INFO - No bill records found in the last 7 days
+2025-09-19 09:44:49,486 - INFO - Bills sync completed
+2025-09-19 09:44:49,491 - INFO - Connecting to DSN: DINE
+2025-09-19 09:44:49,507 - INFO - Database connection successful
+2025-09-19 09:44:49,510 - INFO - Fetched 2 dine_bill records (ALL data)
+2025-09-19 09:44:49,510 - INFO - Processing 2 records in batches of 500
+2025-09-19 09:44:49,511 - INFO - Sending Bills Month batch 1/1 (2 records)
+2025-09-19 09:44:50,516 - ERROR - Bills Month batch 1 failed. Response: {'error': 'relation "dine_bill_month" does not exist\nLINE 1: DELETE FROM "dine_bill_month"\n                    ^'}
+2025-09-19 09:44:50,520 - INFO - Connecting to DSN: DINE
+2025-09-19 09:44:50,536 - INFO - Database connection successful
+2025-09-19 09:44:50,542 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-19 09:44:50,543 - INFO - Processing 2 records in batches of 500
+2025-09-19 09:44:50,543 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-19 09:44:51,451 - INFO - KOT Sales Detail sync completed
+2025-09-19 09:44:51,456 - INFO - Connecting to DSN: DINE
+2025-09-19 09:44:51,471 - INFO - Database connection successful
+2025-09-19 09:44:51,475 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-19 09:44:51,476 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-19 09:44:51,477 - INFO - Date range: All data where colnstatus='C'
+2025-09-19 09:44:52,100 - INFO - Cancelled Bills sync completed
+2025-09-19 09:47:57,679 - INFO - Connecting to DSN: DINE
+2025-09-19 09:47:57,911 - INFO - Database connection successful
+2025-09-19 09:47:57,913 - INFO - Fetched 2 acc_users records
+2025-09-19 09:47:59,593 - INFO - AccUsers sync completed
+2025-09-19 09:47:59,597 - INFO - Connecting to DSN: DINE
+2025-09-19 09:47:59,619 - INFO - Database connection successful
+2025-09-19 09:47:59,638 - INFO - Fetched 133 tb_item_master records
+2025-09-19 09:47:59,639 - INFO - Processing 133 records in batches of 1000
+2025-09-19 09:47:59,643 - INFO - Sending batch 1/1 (133 records)
+2025-09-19 09:48:18,717 - INFO - Items sync completed
+2025-09-19 09:48:18,720 - INFO - Connecting to DSN: DINE
+2025-09-19 09:48:18,736 - INFO - Database connection successful
+2025-09-19 09:48:18,739 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-09-19 09:48:18,739 - INFO - No bill records found in the last 7 days
+2025-09-19 09:48:19,258 - INFO - Bills sync completed
+2025-09-19 09:48:19,261 - INFO - Connecting to DSN: DINE
+2025-09-19 09:48:19,277 - INFO - Database connection successful
+2025-09-19 09:48:19,281 - INFO - Fetched 2 dine_bill records (ALL data)
+2025-09-19 09:48:19,281 - INFO - Processing 2 records in batches of 500
+2025-09-19 09:48:19,281 - INFO - Sending Bills Month batch 1/1 (2 records)
+2025-09-19 09:48:19,859 - INFO - Bills Month sync completed
+2025-09-19 09:48:19,863 - INFO - Connecting to DSN: DINE
+2025-09-19 09:48:19,879 - INFO - Database connection successful
+2025-09-19 09:48:19,881 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-19 09:48:19,882 - INFO - Processing 2 records in batches of 500
+2025-09-19 09:48:19,884 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-19 09:48:20,478 - INFO - KOT Sales Detail sync completed
+2025-09-19 09:48:20,481 - INFO - Connecting to DSN: DINE
+2025-09-19 09:48:20,497 - INFO - Database connection successful
+2025-09-19 09:48:20,502 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-19 09:48:20,503 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-19 09:48:20,503 - INFO - Date range: All data where colnstatus='C'
+2025-09-19 09:48:21,281 - INFO - Cancelled Bills sync completed
+2025-09-25 12:48:31,813 - INFO - Connecting to DSN: DINE
+2025-09-25 12:48:38,751 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Specified database not found (-83) (SQLDriverConnect)')
+2025-09-25 12:48:38,754 - INFO - Connecting to DSN: DINE
+2025-09-25 12:48:44,916 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Specified database not found (-83) (SQLDriverConnect)')
+2025-09-25 12:48:44,919 - INFO - Connecting to DSN: DINE
+2025-09-25 12:48:50,454 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Specified database not found (-83) (SQLDriverConnect)')
+2025-09-25 12:48:50,459 - INFO - Connecting to DSN: DINE
+2025-09-25 12:48:56,374 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Specified database not found (-83) (SQLDriverConnect)')
+2025-09-25 12:48:56,378 - INFO - Connecting to DSN: DINE
+2025-09-25 12:49:01,756 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Specified database not found (-83) (SQLDriverConnect)')
+2025-09-25 12:49:01,760 - INFO - Connecting to DSN: DINE
+2025-09-25 12:49:07,486 - ERROR - Database connection failed: ('08001', '[08001] [SAP][ODBC Driver][SQL Anywhere]Specified database not found (-83) (SQLDriverConnect)')
+2025-09-25 12:50:29,811 - INFO - Connecting to DSN: DINE
+2025-09-25 12:50:30,041 - INFO - Database connection successful
+2025-09-25 12:50:30,045 - INFO - Fetched 2 acc_users records
+2025-09-25 12:50:32,104 - INFO - Connecting to DSN: DINE
+2025-09-25 12:50:32,122 - INFO - Database connection successful
+2025-09-25 12:50:32,138 - INFO - Fetched 133 tb_item_master records
+2025-09-25 12:50:32,139 - INFO - Processing 133 records in batches of 1000
+2025-09-25 12:50:32,139 - INFO - Sending batch 1/1 (133 records)
+2025-09-25 12:50:34,200 - ERROR - Batch 1 failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /api/items/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021EED4516D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-25 12:50:34,204 - INFO - Connecting to DSN: DINE
+2025-09-25 12:50:34,219 - INFO - Database connection successful
+2025-09-25 12:50:34,226 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-09-25 12:50:34,226 - INFO - No bill records found in the last 7 days
+2025-09-25 12:50:36,290 - ERROR - Bills sync failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /api/bills/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021EED453590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-25 12:50:36,296 - INFO - Connecting to DSN: DINE
+2025-09-25 12:50:36,314 - INFO - Database connection successful
+2025-09-25 12:50:36,319 - INFO - Fetched 2 dine_bill records (ALL data)
+2025-09-25 12:50:36,320 - INFO - Processing 2 records in batches of 500
+2025-09-25 12:50:36,320 - INFO - Sending Bills Month batch 1/1 (2 records)
+2025-09-25 12:50:38,365 - ERROR - Bills Month batch 1 failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /api/bills_month/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021EED453320>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-25 12:50:38,368 - INFO - Connecting to DSN: DINE
+2025-09-25 12:50:38,381 - INFO - Database connection successful
+2025-09-25 12:50:38,385 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-25 12:50:38,386 - INFO - Processing 2 records in batches of 500
+2025-09-25 12:50:38,386 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-25 12:50:40,412 - ERROR - KOT batch 1 failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /api/kot_sales/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021EED4504D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-25 12:50:40,415 - INFO - Connecting to DSN: DINE
+2025-09-25 12:50:40,441 - INFO - Database connection successful
+2025-09-25 12:50:40,446 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-25 12:50:40,447 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-25 12:50:40,447 - INFO - Date range: All data where colnstatus='C'
+2025-09-25 12:50:42,495 - ERROR - Cancelled Bills sync failed. Response: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /api/cancelled_bills/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021EED43A930>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-25 12:51:36,246 - INFO - Connecting to DSN: DINE
+2025-09-25 12:51:36,480 - INFO - Database connection successful
+2025-09-25 12:51:36,484 - INFO - Fetched 2 acc_users records
+2025-09-25 12:51:36,757 - INFO - AccUsers sync completed
+2025-09-25 12:51:36,760 - INFO - Connecting to DSN: DINE
+2025-09-25 12:51:36,773 - INFO - Database connection successful
+2025-09-25 12:51:36,785 - INFO - Fetched 133 tb_item_master records
+2025-09-25 12:51:36,786 - INFO - Processing 133 records in batches of 1000
+2025-09-25 12:51:36,786 - INFO - Sending batch 1/1 (133 records)
+2025-09-25 12:51:37,452 - INFO - Items sync completed
+2025-09-25 12:51:37,455 - INFO - Connecting to DSN: DINE
+2025-09-25 12:51:37,469 - INFO - Database connection successful
+2025-09-25 12:51:37,471 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-09-25 12:51:37,472 - INFO - No bill records found in the last 7 days
+2025-09-25 12:51:37,652 - INFO - Bills sync completed
+2025-09-25 12:51:37,661 - INFO - Connecting to DSN: DINE
+2025-09-25 12:51:37,689 - INFO - Database connection successful
+2025-09-25 12:51:37,696 - INFO - Fetched 2 dine_bill records (ALL data)
+2025-09-25 12:51:37,696 - INFO - Processing 2 records in batches of 500
+2025-09-25 12:51:37,697 - INFO - Sending Bills Month batch 1/1 (2 records)
+2025-09-25 12:51:37,840 - INFO - Bills Month sync completed
+2025-09-25 12:51:37,844 - INFO - Connecting to DSN: DINE
+2025-09-25 12:51:37,859 - INFO - Database connection successful
+2025-09-25 12:51:37,864 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-25 12:51:37,864 - INFO - Processing 2 records in batches of 500
+2025-09-25 12:51:37,865 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-25 12:51:38,005 - INFO - KOT Sales Detail sync completed
+2025-09-25 12:51:38,010 - INFO - Connecting to DSN: DINE
+2025-09-25 12:51:38,023 - INFO - Database connection successful
+2025-09-25 12:51:38,027 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-25 12:51:38,028 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-25 12:51:38,029 - INFO - Date range: All data where colnstatus='C'
+2025-09-25 12:51:38,181 - INFO - Cancelled Bills sync completed
+2025-09-25 13:11:01,753 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-25 13:11:01,754 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:11:01,754 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-25 13:11:02,092 - INFO - KOT Sales Detail sync completed
+2025-09-25 13:11:02,127 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-25 13:11:02,128 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-25 13:11:02,128 - INFO - Date range: All data where colnstatus='C'
+2025-09-25 13:11:02,294 - INFO - Cancelled Bills sync completed
+2025-09-25 13:11:48,562 - INFO - Fetched 2 acc_users records
+2025-09-25 13:11:48,775 - INFO - AccUsers sync completed
+2025-09-25 13:11:48,804 - INFO - Fetched 133 tb_item_master records
+2025-09-25 13:11:48,805 - INFO - Processing 133 records in batches of 1000
+2025-09-25 13:11:48,805 - INFO - Sending batch 1/1 (133 records)
+2025-09-25 13:11:49,793 - INFO - Items sync completed
+2025-09-25 13:11:49,816 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-09-25 13:11:49,817 - INFO - No bill records found in the last 7 days
+2025-09-25 13:11:49,981 - INFO - Bills sync completed
+2025-09-25 13:11:50,005 - INFO - Fetched 2 dine_bill records (ALL data)
+2025-09-25 13:11:50,006 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:11:50,007 - INFO - Sending Bills Month batch 1/1 (2 records)
+2025-09-25 13:11:50,175 - INFO - Bills Month sync completed
+2025-09-25 13:11:50,198 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-25 13:11:50,199 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:11:50,201 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-25 13:11:50,372 - INFO - KOT Sales Detail sync completed
+2025-09-25 13:11:50,393 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-25 13:11:50,394 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-25 13:11:50,395 - INFO - Date range: All data where colnstatus='C'
+2025-09-25 13:11:50,558 - INFO - Cancelled Bills sync completed

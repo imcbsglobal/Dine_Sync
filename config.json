@@ -1,15 +1,16 @@
 {
   "database": {
-    "dsn": "dinedb",
+    "dsn": "DINE",
     "username": "DBA",
     "password": "(*$^)"
   },
   "api": {
-    "base_url": "http://127.0.0.1:8000",
+    "base_url": "https://dinesyncapi.sysmac.in/",
     "endpoint": "/api/acc_users/",
     "timeout": 30,
     "items_endpoint": "/api/items/",
     "bills_endpoint": "/api/bills/",
+    "bills_month_endpoint": "/api/bills_month/",
     "kot_sales_endpoint": "/api/kot_sales/",
     "cancelled_bills_endpoint": "/api/cancelled_bills/"
   },
@@ -30,7 +31,7 @@
   },
   "bills_sync": {
     "table_name": "dine_bill",
-    "fields": ["billno", "time", "user", "amount"],
+    "fields": ["billno", "time", "user", "amount", "date"],
     "batch_size": 100,
     "log_level": "INFO"
   },

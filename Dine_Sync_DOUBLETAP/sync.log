@@ -1,0 +1,84 @@
+2025-09-25 13:16:51,467 - INFO - Fetched 2 acc_users records
+2025-09-25 13:16:51,739 - INFO - AccUsers sync completed
+2025-09-25 13:16:51,779 - INFO - Fetched 133 tb_item_master records
+2025-09-25 13:16:51,780 - INFO - Processing 133 records in batches of 1000
+2025-09-25 13:16:51,781 - INFO - Sending batch 1/1 (133 records)
+2025-09-25 13:16:52,581 - INFO - Items sync completed
+2025-09-25 13:16:52,603 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-09-25 13:16:52,604 - INFO - No bill records found in the last 7 days
+2025-09-25 13:16:52,787 - INFO - Bills sync completed
+2025-09-25 13:16:52,812 - INFO - Fetched 2 dine_bill records (ALL data)
+2025-09-25 13:16:52,813 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:16:52,814 - INFO - Sending Bills Month batch 1/1 (2 records)
+2025-09-25 13:16:52,992 - INFO - Bills Month sync completed
+2025-09-25 13:16:53,010 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-25 13:16:53,011 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:16:53,011 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-25 13:16:53,412 - INFO - KOT Sales Detail sync completed
+2025-09-25 13:16:53,437 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-25 13:16:53,438 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-25 13:16:53,439 - INFO - Date range: All data where colnstatus='C'
+2025-09-25 13:16:53,610 - INFO - Cancelled Bills sync completed
+2025-09-25 13:21:50,605 - INFO - Fetched 2 acc_users records
+2025-09-25 13:21:50,844 - INFO - AccUsers sync completed
+2025-09-25 13:21:50,943 - INFO - Fetched 133 tb_item_master records
+2025-09-25 13:21:50,944 - INFO - Processing 133 records in batches of 1000
+2025-09-25 13:21:50,945 - INFO - Sending batch 1/1 (133 records)
+2025-09-25 13:21:51,690 - INFO - Items sync completed
+2025-09-25 13:21:51,717 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-09-25 13:21:51,718 - INFO - No bill records found in the last 7 days
+2025-09-25 13:21:51,923 - INFO - Bills sync completed
+2025-09-25 13:21:51,942 - INFO - Fetched 2 dine_bill records (ALL data)
+2025-09-25 13:21:51,943 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:21:51,943 - INFO - Sending Bills Month batch 1/1 (2 records)
+2025-09-25 13:21:52,116 - INFO - Bills Month sync completed
+2025-09-25 13:21:52,138 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-25 13:21:52,140 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:21:52,140 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-25 13:21:52,383 - INFO - KOT Sales Detail sync completed
+2025-09-25 13:21:52,403 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-25 13:21:52,404 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-25 13:21:52,405 - INFO - Date range: All data where colnstatus='C'
+2025-09-25 13:21:52,542 - INFO - Cancelled Bills sync completed
+2025-09-25 13:22:50,149 - INFO - Fetched 2 acc_users records
+2025-09-25 13:22:50,391 - INFO - AccUsers sync completed
+2025-09-25 13:22:50,418 - INFO - Fetched 133 tb_item_master records
+2025-09-25 13:22:50,418 - INFO - Processing 133 records in batches of 1000
+2025-09-25 13:22:50,420 - INFO - Sending batch 1/1 (133 records)
+2025-09-25 13:22:51,396 - INFO - Items sync completed
+2025-09-25 13:22:51,417 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-09-25 13:22:51,418 - INFO - No bill records found in the last 7 days
+2025-09-25 13:22:51,570 - INFO - Bills sync completed
+2025-09-25 13:22:51,590 - INFO - Fetched 2 dine_bill records (ALL data)
+2025-09-25 13:22:51,592 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:22:51,592 - INFO - Sending Bills Month batch 1/1 (2 records)
+2025-09-25 13:22:51,755 - INFO - Bills Month sync completed
+2025-09-25 13:22:51,774 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-25 13:22:51,775 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:22:51,776 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-25 13:22:51,929 - INFO - KOT Sales Detail sync completed
+2025-09-25 13:22:51,949 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-25 13:22:51,949 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-25 13:22:51,949 - INFO - Date range: All data where colnstatus='C'
+2025-09-25 13:22:52,105 - INFO - Cancelled Bills sync completed
+2025-09-25 13:32:18,206 - INFO - Fetched 2 acc_users records
+2025-09-25 13:32:18,711 - INFO - AccUsers sync completed
+2025-09-25 13:32:18,755 - INFO - Fetched 133 tb_item_master records
+2025-09-25 13:32:18,757 - INFO - Processing 133 records in batches of 1000
+2025-09-25 13:32:18,758 - INFO - Sending batch 1/1 (133 records)
+2025-09-25 13:32:19,611 - INFO - Items sync completed
+2025-09-25 13:32:19,637 - INFO - Fetched 0 dine_bill records from last 7 days
+2025-09-25 13:32:19,639 - INFO - No bill records found in the last 7 days
+2025-09-25 13:32:19,848 - INFO - Bills sync completed
+2025-09-25 13:32:19,877 - INFO - Fetched 2 dine_bill records (ALL data)
+2025-09-25 13:32:19,879 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:32:19,880 - INFO - Sending Bills Month batch 1/1 (2 records)
+2025-09-25 13:32:20,064 - INFO - Bills Month sync completed
+2025-09-25 13:32:20,088 - INFO - Fetched 2 dine_kot_sales_detail records (ALL data)
+2025-09-25 13:32:20,089 - INFO - Processing 2 records in batches of 500
+2025-09-25 13:32:20,090 - INFO - Sending KOT batch 1/1 (2 records)
+2025-09-25 13:32:20,285 - INFO - KOT Sales Detail sync completed
+2025-09-25 13:32:20,351 - INFO - Fetched 2 cancelled_bills records (colnstatus='C', ALL data)
+2025-09-25 13:32:20,352 - INFO - Sample cancelled bill record: {'billno': '2', 'date': '2025-08-19', 'creditcard': '240.00', 'colnstatus': 'C'}
+2025-09-25 13:32:20,352 - INFO - Date range: All data where colnstatus='C'
+2025-09-25 13:32:20,511 - INFO - Cancelled Bills sync completed

@@ -1,0 +1,50 @@
+{
+  "database": {
+    "dsn": "DINE",
+    "username": "DBA",
+    "password": "(*$^)"
+  },
+  "api": {
+    "base_url": "https://dinesyncapi.sysmac.in/",
+    "endpoint": "/api/acc_users/",
+    "timeout": 30,
+    "items_endpoint": "/api/items/",
+    "bills_endpoint": "/api/bills/",
+    "bills_month_endpoint": "/api/bills_month/",
+    "kot_sales_endpoint": "/api/kot_sales/",
+    "cancelled_bills_endpoint": "/api/cancelled_bills/"
+  },
+  "sync": {
+    "table_name": "acc_users",
+    "fields": ["id", "pass"],
+    "batch_size": 100,
+    "log_level": "INFO"
+  },
+  "items_sync": {
+    "table_name": "tb_item_master",
+    "fields": [
+      "item_code", "item_name", "rate", "rate1", "rate2",
+      "rate3", "rate4", "rate5", "rate6", "rate7",
+      "kitchen", "category"
+    ],
+    "batch_size": 20
+  },
+  "bills_sync": {
+    "table_name": "dine_bill",
+    "fields": ["billno", "time", "user", "amount", "date"],
+    "batch_size": 100,
+    "log_level": "INFO"
+  },
+  "cancelled_bills_sync": {
+    "table_name": "cancelled_bills",
+    "fields": ["billno", "date", "creditcard", "colnstatus"],
+    "batch_size": 100,
+    "log_level": "INFO"
+  },
+  "kot_sales_sync": {
+    "table_name": "dine_kot_sales_detail",
+    "fields": ["slno", "billno", "item", "qty", "rate"],
+    "batch_size": 100,
+    "log_level": "INFO"
+  }
+}
